@@ -1,514 +1,289 @@
 <!DOCTYPE html>
-<html  lang="en-US">
-<head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Web Site of Víctor Blanco</title>
-  <style>
-    html {
-      line-height: 1.5;
-      font-family: Georgia, serif;
-      font-size: 16px;
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 70em;
-      padding-left: 18px;
-      padding-right: 18px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 1em;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #48058f;
-    }
-    a:visited {
-      color: #baae07;
-    }
-    img {
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
-      font-size: 85%;
-      margin: 0;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #43034e;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
 
-</head>
-<body>
-    <table>
-<p><h1>Víctor
-Blanco</h1>
-</p>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="Víctor Blanco — Professor of Mathematical Optimization at Universidad de Granada. Research, publications, talks, projects and software." name="description"/><title>Víctor&nbsp;&nbsp;&nbsp;Blanco | Mathematical Optimization</title><style>
+:root{--ink:#1c2433;--muted:#667085;--burgundy:#822b45;--bg:#f6f7f9;--line:#e4e7ec;--white:#fff;--accent:#f8edf1}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Arial,sans-serif}a{color:var(--burgundy);text-decoration:none}a:hover{text-decoration:underline}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #c58ba0;outline-offset:3px}.shell{max-width:1140px;margin:auto;padding:0 28px}.topbar{position:sticky;top:0;z-index:20;background:#ffffffed;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.top-inner{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-size:1.13rem;font-weight:800;letter-spacing:-.035em;color:var(--ink)}.brand span{color:var(--burgundy)}.nav{display:flex;flex-wrap:wrap;gap:18px}.nav a{font-size:.88rem;font-weight:650;color:#465064}.nav a:hover{color:var(--burgundy)}.hero{padding:76px 0 65px;background:linear-gradient(145deg,#fff 35%,#f9edf1 100%);border-bottom:1px solid var(--line)}.hero-grid{display:grid;grid-template-columns:1fr 235px;align-items:center;gap:60px}.eyebrow{color:var(--burgundy);font-weight:750;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase}.hero h1{font-size:clamp(2.7rem,6vw,4.9rem);line-height:1.07;letter-spacing:-.055em;margin:12px 0 17px}.hero .role{font-size:1.23rem;font-weight:650;margin:0 0 12px}.hero .affiliation{color:var(--muted);max-width:650px;margin:0 0 24px}.portrait{width:230px;height:270px;object-fit:cover;border-radius:18px;box-shadow:0 18px 55px #31172325;background:#eaeaea}.actions{display:flex;flex-wrap:wrap;gap:10px}.button{display:inline-block;padding:9px 15px;border-radius:9px;background:var(--burgundy);color:white;font-size:.9rem;font-weight:650}.button:hover{color:white;background:#612036;text-decoration:none}.button.secondary{background:white;color:var(--burgundy);border:1px solid #e5c6d1}.section{padding:66px 0;scroll-margin-top:85px}.section:nth-of-type(even){background:#fff}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:24px}.section h2{font-size:clamp(1.75rem,3vw,2.4rem);letter-spacing:-.04em;line-height:1.2;margin:0}.section-intro{color:var(--muted);margin:9px 0 0}.tagline{max-width:850px;color:#475467}.research-tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.tag{padding:8px 13px;background:var(--accent);color:#762940;border-radius:30px;font-size:.87rem;font-weight:650}.panel{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden}.paper{display:grid;grid-template-columns:90px 1fr;gap:22px;padding:19px 23px;border-bottom:1px solid var(--line)}.paper:last-child{border-bottom:0}.paper-year{color:var(--burgundy);font-size:.84rem;font-weight:750;padding-top:3px}.paper p{margin:0;line-height:1.65}.paper a{font-weight:700}.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px}.toolbar input,.toolbar select{font:inherit;padding:11px 13px;border:1px solid #d4d8df;border-radius:9px;background:white;min-height:46px}.toolbar input{flex:1;min-width:240px}.toolbar select{min-width:130px}.count{font-size:.86rem;color:var(--muted);margin:12px 0}.talk{border-bottom:1px solid var(--line);padding:13px 20px}.talk:last-child{border-bottom:0}.talk p{margin:0}.project-box{padding:24px}.project-box>p{margin-top:0}.project-box ul{padding-left:21px}.project-box li{padding:7px 0}.project-box li p{margin:0}.footer{background:#202634;color:#d0d5dd;padding:35px 0;font-size:.9rem}.footer a{color:#fff}.hidden{display:none!important}.show-more{margin-top:18px;cursor:pointer;border:1px solid #d6bdc5;color:var(--burgundy);background:white;border-radius:9px;padding:10px 16px;font:inherit;font-weight:650}@media(max-width:760px){.top-inner{align-items:flex-start;flex-direction:column;gap:7px;padding-top:12px;padding-bottom:12px}.nav{gap:10px 15px}.nav a{font-size:.8rem}.hero{padding:42px 0}.hero-grid{grid-template-columns:1fr;gap:25px}.portrait{width:175px;height:205px;grid-row:1}.section{padding:45px 0;scroll-margin-top:135px}.paper{grid-template-columns:1fr;gap:4px;padding:17px}.shell{padding:0 18px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 
-<table>
-<tr>
-<td>
-<p><strong>Full Professor</strong></p>
-<p><strong>Dept. of Quantitative Methods for Economics &amp;
-Business</strong></p>
-<p><strong>Institute of Mathematics (IMAG)</strong></p>
-<p><strong>Universidad de Granada</strong></p>
-<p>vblanco (at) ugr (dot) es</p>
-<p> Openalex: <a href="https://openalex.org/A5076102215" target="_blank">A5076102215</a></p>
-</td>
-<td><p>   </p></td>
-<td>
-    <img src="media/image1.png" 
-    style="width:2.4in" />
-    </td>
-</tr>
-</table>
+/* Stage-inspired academic portfolio: charcoal, electric coral, sharp typography */
+:root{--ink:#e9edf5;--muted:#a4aabd;--burgundy:#ff5367;--bg:#0c1018;--line:#303746;--white:#171d28;--accent:#30212e}
+body{background:var(--bg);color:var(--ink)}a{color:#ff7484}a:hover{color:#ffa3ac}
+.topbar{background:#0b0e15f2;border-bottom:1px solid #34323e}.brand{color:#f5f6fa}.brand span{color:#ff5367}.nav a{color:#c2c6d2}.nav a:hover,.nav a.active{color:#ff6e80}.nav a.active{box-shadow:0 3px #ff5367;padding-bottom:6px}
+.hero{background:radial-gradient(ellipse at 85% 30%,#5d213a 0,transparent 43%),linear-gradient(135deg,#141a25,#090b11 72%);border-bottom:1px solid #34313c;position:relative;overflow:hidden}
+.hero:before{content:'OPTIMIZE / CREATE / EXPLORE';position:absolute;right:-3%;bottom:-25px;font-size:clamp(2rem,7vw,7rem);font-weight:950;letter-spacing:-.08em;color:#ffffff08;white-space:nowrap;pointer-events:none}
+.hero h1{font-size:clamp(3.4rem,8vw,6.5rem);font-weight:900;letter-spacing:-.075em;text-transform:uppercase}.hero .role{color:#f2e9ed}.hero .affiliation{color:#b3b6c4}.eyebrow{color:#ff687a;letter-spacing:.2em}.portrait{border-radius:5px;box-shadow:18px 18px 0 #ff53673b,0 25px 65px #0008;filter:contrast(1.05)}
+.button{background:#ff5367;color:#0b0e15;border-radius:3px;text-transform:uppercase;letter-spacing:.04em}.button:hover{background:#ff8491;color:#0b0e15}.button.secondary{background:transparent;border-color:#ff5367;color:#ff9aa5}
+.section{border-bottom:1px solid #262b37}.section:nth-of-type(even){background:#121723}.section h2{font-weight:850;text-transform:uppercase;letter-spacing:-.05em}.section h2:before{content:'// ';color:#ff5367}.section-intro,.tagline{color:#aeb4c2}.tag{background:#2c202b;color:#ffa3af;border:1px solid #533141;border-radius:3px}.panel{background:#171d28;border-color:#303746;border-radius:5px}.paper,.talk{border-color:#303746}.paper-year{color:#ff7a89}.paper a{color:#f2f3f7}.paper a:hover{color:#ff8491}.toolbar input,.toolbar select{background:#171d28;color:#f1f2f5;border-color:#3c4657;border-radius:3px}.count{color:#abb1be}.project-box{color:#dce0e9}.footer{background:#080a0f}.show-more{background:#1b202c;color:#ff8594;border-color:#7a3d4b;border-radius:3px}
+#talks{background:linear-gradient(120deg,#221724,#111824)!important;border-top:2px solid #ff5367}#talks .panel{border-left:4px solid #ff5367}#talks h2{color:#fff}#talks .talk:hover{background:#ffffff09}
+.student-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.student-group{background:#171d28;border:1px solid #303746;border-top:3px solid #ff5367;padding:24px}.student-group h3{margin:0 0 16px;text-transform:uppercase;letter-spacing:.025em;font-size:1.03rem}.group-count{float:right;color:#ff7686}.student-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 0;border-top:1px solid #303746}.student-row strong{font-weight:600}.student-row span{color:#ff8895;font-size:.85rem;white-space:nowrap}
+@media(max-width:760px){.student-grid{grid-template-columns:1fr}.hero h1{font-size:clamp(2.9rem,11vw,4.7rem)}}
 
-
-<a href="#preprints" class="btn">Preprints</a>
-<a href="#publications" class="btn">Publications</a>
-<a href="#talks" class="btn">Talks</a>
-<a href="#projects" class="btn">Projects</a>
-<a href="#datasets" class="btn">Datasets</a>
-
-<div class="btn" id="preprints">
-  <p><strong>Preprints:</strong></p></div>
-  <p> V Blanco and G González. <a href="https://arxiv.org/abs/2607.23107" target="_blank">Optimization of Kinetic--Stoichiometric Growth Bounds over Autocatalytic Subnetworks</a></p>
-  <p> V Blanco, J.F. Camacho-Vallejo, and Y. Hinojosa. <a href="https://arxiv.org/abs/2606.13524" target="_blank">A Sustainable Integrated Framework for Multi-Type Urban Waste Collection and Recycling</a></p>
-  <p> V Blanco and M Martínez-Antón. <a href="https://arxiv.org/abs/2605.30491" target="_blank">Exact Mixed-Integer Conic Liftings for Queueing-Based CDN Design</a></p>
-  <p> V Blanco, R Gázquez, and JF Ocaña-Rivas <a href="https://arxiv.org/abs/2604.12511"> Constructing Nested Self-Amplifying Multiperiod Hypergraphs through Mathematical Optimization</a></p>
-  <p> V Blanco, M Martínez-Antón, and J Puerto. <a href="https://arxiv.org/abs/2511.01481" target="_blank">Exponential Conic Optimization for Multi-Regime Service System Design under Congestion and Tail-Risk Control</a></p>
-  <p> V Blanco and M Martínez-Antón. <a href="https://arxiv.org/abs/2511.01481" target="_blank">Structural and Solution Analysis for the Ordered Weber Problem under Spatial Uncertainty</a></p>
-  <p> V Blanco, D. Laborda, and M Martínez-Antón. <a href="https://arxiv.org/abs/2510.09166" target="_blank">On the Strength of Linear Relaxations in Ordered Optimization</a></p>
-  <p> V Blanco, A Marín, and J Puerto. <a href="https://arxiv.org/abs/2506.19821" target="_blank">Exact Matrix Seriation through Mathematical Optimization: Stress and Effectiveness-Based Models</a></p>
-  <p> M Albareda-Sambola, V Blanco, Y Hinojosa. <a href="https://arxiv.org/pdf/2505.05418" target="_blank">Coordinating Drop-Off Locations and Pickup Routes: A Budget-Constrained Routing Perspective </a></p>
-  <p> V Blanco, G González, P Gagrani. <a href="https://arxiv.org/pdf/2412.15776" target="_blank">On the optimal growth of autocatalytic subnetworks: A Mathematical Optimization Approach</a></p>
-
-  <div class="btn" id="publications">
-    <p><strong>Publications:</strong></p></div>
-    <p><strong>[63]</strong> Víctor Blanco, Inmaculada Espejo, Raúl Páez, and Antonio M Rodríguez-Chía. <a href="https://arxiv.org/pdf/2502.03288" target="_blank"> A Mathematical Optimization Approach to Multisphere Support Vector Data Description.</a>. Pattern Recognition, 2026. </p>
-    <p><strong>[62]</strong> Víctor Blanco, Miguel and Miguel Martínez-Antón. <a href="https://arxiv.org/pdf/2502.03288" target="_blank">On the structure and computation of extremal mediated graphs with applications to conic optimization.</a>. Journal of Optimization Theory and Applications, 2026. </p>
-    <p><strong>[61]</strong> Víctor Blanco, Miguel A. Pozo, Justo Puerto, and  Alberto Torrejon. <a href="https://arxiv.org/pdf/2503.18097" target="_blank">Linear, nested, and quadratic ordered measures: Computation and incorporation into optimization problems.</a>. Annals of OR, 2026. </p>
-    <p><strong>[60]</strong> Víctor Blanco, Fernando Camacho-Vallejo, and Carlos Corpus. <a href="https://arxiv.org/pdf/2503.00561" target="_blank">The Hub Location and Pricing Problem under a Tree Topology: A Bilevel Formulation and a Co-Evolutionary Algorithm</a>. International Transactions in Operational Research, 2026. </p>
-    <p><strong>[59]</strong> Víctor Blanco, Alberto Japón, Justo Puerto, Peter Zhang. <a href="https://github.com/INFORMSJoC/2025.1475" target="_blank">Weighted Optimal Classification Forests</a>. INFORMS J on Computing, 2026. </p>
-    <p><strong>[58]</strong> Víctor Blanco, Harshit Kothari, and Jim Luedtke. <a href="https://arxiv.org/abs/2510.05047" target="_blank">A Unified Optimization Framework for Multiclass Classification with Structured Hyperplane Arrangements</a>. Computational Optimization and Applications, 2026.</p>
-    <p><strong>[57]</strong> Víctor Blanco, Alberto Japón, Justo Puerto, and Peter Zhang. <a href="https://doi.org/10.1016/j.patcog.2025.112980" target="_blank">Optimal probabilistic feature shifts for reclassification in tree ensembles</a>. Pattern Recognition 174, 2026, 112980.</p>
-    <p><strong>[56]</strong> Víctor Blanco, Victor Magron, Miguel Martínez-Antón. <a href="https://doi.org/10.1016/j.jcom.2025.101698" target="_blank">On the Complexity of p-Order Cone Programs</a>. Journal of Complexity 91, 2025, 101979.</p>
-    <p><strong>[55]</strong> Víctor Blanco, Ricardo Gázquez, Marina Leal. <a href="https://doi.org/10.1016/j.tre.2025.104328" target="_blank">Incorporation of Regional Preferences in Facility Location: Insights into Efficiency and Satisfaction Trade-offs </a>. Transportation Research Part E 203, 2025, 104328.
-    <p><strong>[54]</strong> Víctor Blanco, Gabriel González, and Justo Puerto. <a href="https://doi.org/10.1016/j.cie.2025.111331" target="_blank">Fixed Topology Minimum-Length Trees with Neighborhoods</a>. Computers & Industrial Engineering 207, 2025, 111331. </p>
-    <p><strong>[53]</strong> Praful Gagrani, Víctor Blanco, Eric Smith, and David Baum. <a href="https://link.springer.com/article/10.1007/s10910-024-01576-x" target="_blank">Polyhedral geometry and combinatorics of an autocatalytic ecosystem</a>. Journal of Mathematical Chemistry 62 (5), 1012-1078.</p>
-    <p><strong>[52]</strong> Víctor Blanco and Miguel Martínez-Antón. <a href="https://epubs.siam.org/doi/10.1137/23M1617205", target="_blank"> On minimal extended representations of generalized power cones</a>. SIAM J Optimization 34(3), 3088-3111, 2024.</p>
-    <p><strong>[51]</strong> Víctor Blanco and Miguel Martínez-Antón. <a href="https://www.sciencedirect.com/science/article/pii/S0305048323001202", target="_blank"> Optimal coverage-based placement of static leak detection devices for pipeline water supply networks</a>. Omega 122, 102956</p>
-    <p><strong>[50]</strong> Víctor Blanco, Alfredo Marín, and Justo Puerto. <a href="https://www.sciencedirect.com/science/article/pii/S0305054823003519", target="_blank"> Intra-facility equity in discrete and continuous p-facility location problems</a>. Computers &amp; Operations Research 162 (2024): 106487.</p>
-    <p><strong>[49]</strong> Víctor Blanco, Yolanda Hinojosa, and Víctor Zavala. <a href="https://pubs.acs.org/doi/abs/10.1021/acssuschemeng.4c01429", target="_blank"> The Waste-to-Biomethane Logistic Problem: A Mathematical Optimization Approach</a>. ACS Sustainable Chemistry &amp; Engineering 12(22). 2024.</p>
-    <p><strong>[48]</strong> Víctor Blanco, Gabriel González, Yolanda Hinojosa, Diego Ponce, Miguel A Pozo and Justo Puerto.  <a href="https://www.sciencedirect.com/science/article/pii/S0029801823019091", target="_blank">The pipelines and cable trays location problem in naval design</a>. Ocean Engineering, 286:115525, 2023. </p>
-    <p><strong>[47]</strong> Víctor Blanco, Ricardo Gázquez, and Francisco Saldanha-da Gama. <a href="https://www.sciencedirect.com/science/article/pii/S0377221722008256", target="_blank">Multi-type maximal covering location problems: Hybridizing discrete and continuous problems</a>. European Journal of Operational Research, 307(3):1040–1054, 2023.</p>
-    <p><strong>[46]</strong> Víctor Blanco, Ricardo Gázquez, Diego Ponce, and Justo Puerto. <a href="https://www.sciencedirect.com/science/article/pii/S0377221722005744", target="_blank">A branch-and-price approach for the continuous multifacility monotone ordered median problem</a>. European Journal of Operational Research, 306(1):105–126, April 2023.</p>
-    <p><strong>[45]</strong> Víctor Blanco and Ricardo Gázquez. <a href="https://www.sciencedirect.com/science/article/pii/S030505482300151X", target="_blank">Fairness in maximal covering location problems</a>. Computers &amp; Operations Research, 157:106287, 2023. </p>
-    <p><strong>[44]</strong> Víctor Blanco, Elena Fernández, and Yolanda Hinojosa. <a href="", target="_blank">Hub Location with Protection Under Interhub Link Failures</a>. INFORMS Journal on Computing, 2023.</p>
-    <p><strong>[43]</strong> Víctor Blanco and Justo Puerto. <a href="https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2023.1296", target="_blank">On hub location problems in geographically flexible networks</a>. International Transactions in Operational Research, 29(4):2226–2249, 2022.</p>
-    <p><strong>[42]</strong> Victor Blanco, Alberto Japón, and Justo Puerto. <a href="https://link.springer.com/article/10.1007/s11634-021-00467-2", target="_blank">Robust optimal classification trees under noisy labels</a>. Advances in Data Analysis and Classification, 16(1):155–179, March 2022.</p>
-    <p><strong>[41]</strong> Víctor Blanco, Alberto Japón, and Justo Puerto. <a href="https://www.sciencedirect.com/science/article/pii/S0360835222006039", target="_blank">A mathematical programming approach to SVM-based classification with label noise</a>. Computers &amp; Industrial Engineering, 172:108611, October    2022.</p>
-    <p><strong>[40]</strong> Víctor Blanco, Gabriel González, Yolanda Hinojosa, Diego Ponce, Miguel A. Pozo, and Justo Puerto. <a href="https://www.sciencedirect.com/science/article/pii/S0305048322000664", target="_blank">Network flow based approaches for the pipelines routing problem in naval design</a>. Omega, 111:102659, September 2022.</p>
-    <p><strong>[39]</strong> Víctor Blanco, Ricardo Gázquez, and Marina Leal. <a href="https://link.springer.com/article/10.1007/s11750-022-00643-3", target="_blank">Mathematical optimization models for reallocating and sharing health equipment in pandemic situations</a>. TOP, September 2022.</p>
-    <p><strong>[38]</strong> Víctor Blanco and Justo Puerto. <a href="https://www.sciencedirect.com/science/article/pii/S0377221720306093", target="_blank">Covering problems with polyellipsoids: A location analysis perspective</a>. European Journal of Operational Research, 289(1):44–58, February 2021.</p>
-    <p><strong>[37]</strong> V. Blanco, A. Japón, D. Ponce, and J. Puerto. <a href="https://www.sciencedirect.com/science/article/pii/S0305054820302410", target="_blank">On the multisource hyperplanes location problem to fitting set of points</a>. Computers &amp; Operations Research, 128:105124, April 2021.</p>
-    <p><strong>[36]</strong> Wissem Achour, Djamal Chaabane, and Víctor Blanco. <a href="https://link.springer.com/article/10.1007/s11590-020-01589-w", target="_blank">An improved algorithm to compute the ω-primality</a>. Optimization Letters, 15(1):97–107, February 2021.</p>
-    <p><strong>[35]</strong> Vıctor Blanco, Justo Puerto, and Antonio Rodríguez-Chía. <a href="https://www.jmlr.org/papers/v21/18-601.html", target="_blank">On lp-Support Vector Machines and Multidimensional Kernels</a>. Journal of Machine Learning Research, 21(1):469–497, 2020.</p>
-    <p><strong>[34]</strong> Víctor Blanco, Alberto Japón, and Justo Puerto. <a href="https://link.springer.com/article/10.1007/s11634-019-00367-6", target="_blank">Optimal arrangements of hyperplanes for SVM-based multiclass classification</a>. Advances in Data Analysis and Classification, 14(1):175–199, March 2020.</p>
-    <p><strong>[33]</strong> Víctor Blanco, Eduardo Conde, Yolanda Hinojosa, and Justo Puerto. <a href="https://www.sciencedirect.com/science/article/pii/S0305048319307492", target="_blank">An optimization model for line planning and timetabling in automated urban metro subway networks. A case study</a>. Omega, 92:102165, April 2020.</p>
-    <p><strong>[32]</strong> Manuel Arana-Jiménez, Víctor Blanco, and Elena Fernández. <a href="https://www.sciencedirect.com/science/article/pii/S0377221719309476", target="_blank">On the fuzzy maximal covering location problem</a>. European     Journal of Operational Research, 283(2):692–705, June 2020.</p>
-    <p><strong>[31]</strong> Víctor Blanco and Alfredo Marín. <a href="https://www.sciencedirect.com/science/article/pii/S0305054818302600", target="_blank">Upgrading    nodes in tree-shaped hub location</a>. Computers &amp; Operations Research,    102:75–90, February 2019.</p>
-    <p><strong>[30]</strong> Víctor Blanco. <a href="https://link.springer.com/article/10.1007/s10589-019-00077-x", target="_blank">Ordered p-median problems with    neighbourhoods</a>. Computational Optimization and Applications, 73(2):603–645, June 2019.</p>
-    <p><strong>[29]</strong> Manuel Arana-Jiménez and Víctor Blanco. <a href="https://www.sciencedirect.com/science/article/pii/S0360835218306326", target="_blank">On a    fully fuzzy framework for mini-max mixed integer linear programming.</a> Computers &amp; Industrial Engineering, 128:170–179, February 2019.</p>
-    <p><strong>[28]</strong> Víctor Blanco, Román Salmerón, and Samuel    Gómez-Haro. <a href="https://link.springer.com/article/10.1007/s10726-018-9583-9", target="_blank">A Multicriteria Selection System Based on Player    Performance: Case Study—The Spanish ACB Basketball League</a>. Group Decision and Negotiation, 27(6):1029–1046, December 2018.</p>
-    <p><strong>[27]</strong> Víctor Blanco, Justo Puerto, and RománSalmerón. <a href="https://www.sciencedirect.com/science/article/pii/S0305054818300789", target="_blank">Locating hyperplanes to fitting set of points: A general framework</a>. Computers &amp; Operations Research, 95:172–193, July    2018.</p>
-    <p><strong>[26]</strong> Víctor Blanco and José M. Pérez-Sánchez. <a href="https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/article/on-the-aggregation-of-experts-information-in-bonusmalus-systems/2F4905C1568E5E1DDB16F7E8D37D69A8", target="_blank">On the aggregation of expert’s information in Bonus-Malus systems</a>. ASTIN    Bulletin, 48(1):311–337, January 2018.</p>
-    <p><strong>[25]</strong> Víctor Blanco, Justo Puerto, and Diego Ponce. <a href="https://link.springer.com/article/10.1007/s10107-016-1002-x", target="_blank">Continuous location under the. effect of 'refraction'</a>. Mathematical Programming, 161(1-2):33–72, January 2017.</p>
-    <p><strong>[24]</strong> Víctor Blanco, Elena Fernández, and Justo     Puerto. <a href="https://www.sciencedirect.com/science/article/pii/S0377221717303569", target="_blank">Minimum Spanning Trees with neighborhoods: Mathematical programming formulations and solution methods</a>. European Journal of    Operational Research, 262(3):863–878, November 2017.</p>
-    <p><strong>[23]</strong> Román Salmerón and Víctor Blanco. <a href="https://dialnet.unirioja.es/servlet/articulo?codigo=6466471", target="_blank">El problema    de un tamaño muestral pequeño en la regresion lineal: Micronumerosidad</a>. @Recta, 17:167–177, 2016.</p>
-    <p><strong>[22]</strong> Víctor Blanco, Justo Puerto, and Safae El-Haj    Ben-Ali. <a href="https://www.sciencedirect.com/science/article/pii/S0377221715009911", target="_blank">Continuous multifacility ordered median location problems</a>.European Journal of Operational Research, 250(1):56–64, April 2016.</p>
-    <p><strong>[21]</strong> Víctor Blanco and Justo Puerto. <a href="https://www.sciencedirect.com/science/article/pii/S0165011414004916", target="_blank">Short rational     generating functions for solving some families of fuzzy integer programming problems</a>. Fuzzy Sets and Systems,272:30–46, August 2015.</p>
-    <p><strong>[20]</strong> Victor Blanco, Justo Puerto, and Safae El Haj    Ben Ali. <a href="https://link.springer.com/article/10.1007/s10898-013-0056-z", target="_blank">A Semidefinite Programming approach for solving MultiobjectiveLinear Programming</a>. Journal of Global Optimization, 58(3):465–480, March    2014.</p>
-    <p><strong>[19]</strong> Victor Blanco, Justo Puerto, and Safae El Haj    Ben Ali. <a href="https://link.springer.com/article/10.1007/s10589-014-9638-z", target="_blank">Revisiting several problems and algorithms in continuouslocation with l_tau-norms</a>. Computational Optimization andApplications, 58(3):563–595, July 2014.</p>
-    <p><strong>[18]</strong> Victor Blanco and José Carlos Rosales. <a href="https://www.degruyter.com/document/doi/10.1515/form.2011.151/html", target="_blank">The tree    of irreducible numerical semigroups with fixed Frobenius number</a>. Forum Math,25(6):1249–1261, November 2013.</p>
-    <p><strong>[17]</strong> Víctor Blanco, Safae El Haj Ben Ali, and Justo    Puerto. <a href="https://www.sciencedirect.com/science/article/pii/S030505481200216X", target="_blank">Minimizing ordered weighted averaging of rational functions with applications to continuous location</a>. Computers &amp; Operations    Research, 40(5):1448–1460, May 2013.</p>
-    <p><strong>[16]</strong> Víctor Blanco. <a href="https://link.springer.com/article/10.1007/s00233-013-9477-8", target="_blank">Irreducible numerical semigroups    with multiplicity three and four</a>. Semigroup Forum, 87(2):407–427, October2013.</p>
-    <p><strong>[15]</strong> Víctor Blanco and Jose Carlos Rosales. <a href="https://link.springer.com/article/10.1007/s00233-012-9378-2", target="_blank">The set    of numerical semigroups of a given genus</a>. Semigroup Forum,    85(2):255–267, October 2012.</p>
-    <p><strong>[14]</strong> Víctor Blanco and Jose Carlos Rosales. <a href="https://www.sciencedirect.com/science/article/pii/S0898122111010893", target="_blank">On the    enumeration of the set of numerical semigroups with fixed Frobenius    number</a>. Computers &amp; Mathematics with Applications, 63(7):1204–1211,    April 2012.</p>
-    <p><strong>[13]</strong> Victor Blanco, Justo Puerto, and Safae El Haj Ben Ali. <a href="https://link.springer.com/chapter/10.1007/978-3-642-29210-1_53", target="_blank">Optimizing ordered median functions with applications to single    facility location</a>. In Diethard Klatte, Hans-Jakob Lüthi, and Karl    Schmedders, editors, Operations Research Proceedings 2011, pages    329–334. Springer Berlin Heidelberg, Berlin, Heidelberg, 2012.Series</p>
-    <p><strong>[12]</strong> Víctor Blanco and Justo Puerto. <a href="https://link.springer.com/article/10.1007/s11590-011-0279-1", target="_blank">A new    complexity result on multiobjective linear integer programming using    short rational generating functions</a>. Optimization Letters,6(3):537–543, March 2012.</p>
-    <p><strong>[11]</strong> Víctor Blanco and Justo Puerto. <a href="https://epubs.siam.org/doi/abs/10.1137/110821809", target="_blank">An Application    of Integer Programming to the Decomposition of Numerical Semigroups</a>.    SIAM Journal on Discrete Mathematics, 26(3):1210–1237, January 2012.</p>
-    <p><strong>[10]</strong> Víctor Blanco and Jose Carlos Rosales.        <a href="https://www.worldscientific.com/doi/abs/10.1142/S0218196711006492", target="_blank">Irreducibility in the set of numerical semigroups with fixed    multiplicity</a>. International Journal of Algebra and Computation,21(05):731–744, August 2011.</p>
-    <p><strong>[9]</strong> Víctor Blanco, Justo Puerto, and Ana B. Ramos. <a href="https://www.sciencedirect.com/science/article/pii/S0305048310000654", target="_blank">Expanding the Spanish high-speed railway network</a>. Omega, 39(2):138–150,April 2011.</p>
-    <p><strong>[8]</strong> Víctor Blanco and Justo Puerto. <a href="https://www.sciencedirect.com/science/article/pii/S0747717110001720", target="_blank">Some algebraic    methods for solving multiobjective polynomial integer programs</a>. Journalof Symbolic Computation, 46(5):511–533, May 2011.</p>
-    <p><strong>[7]</strong> Víctor Blanco, Pedro A. García-Sánchez, and    Justo Puerto. <a href="https://www.worldscientific.com/doi/abs/10.1142/S0218196711006911", target="_blank">Counting numerical Semigroups with short generatingfunctions</a>. International Journal of Algebra and Computation 21(07):1217–1235, November 2011.</p>
-    <p><strong>[6]</strong> Víctor Blanco, Pedro A García-Sánchez, and    Alfred Geroldinger. <a href="https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-55/issue-4/Semigroup-theoretical-characterizations-of-arithmetical-invariants-with-applications-to-numerical/10.1215/ijm/1373636689.short", target="_blank">Semigroup- theoretical characterizations of    arithmetical invariants with applications to numerical monoids and Krull    monoids</a>. Illinois Journal of Mathematics, 55(4):1385–1414, 2011.</p>
-    <p><strong>[5]</strong> Víctor Blanco, Pedro A García-Sánchez, and    Alfred Geroldinger. <a href="https://acirm.centre-mersenne.org/item/ACIRM_2010__2_2_95_0/", target="_blank">Semigroup-theoretical characterizations of    arithmetical invariants with applications to numerical monoids and krullmonoids</a>. Actes des rencontres du CIRM, 2(2):95–98, 2010.</p>
-    <p><strong>[4]</strong> Victor Blanco, Luisa Carpente, Yolanda Hinojosa,    and Justo Puerto. <a href="https://link.springer.com/article/10.1007/s11067-009-9120-0", target="_blank">Planning for Agricultural Forage Harvesters and    Trucks: Model, Heuristics, and Case Study</a>. Networks and Spatial    Economics, 10(3):321–343, September 2010.</p>
-    <p><strong>[3]</strong> Víctor Blanco and Justo Puerto. <a href="https://epubs.siam.org/doi/abs/10.1137/070698051", target="_blank">Partial Gröbner    Bases for Multiobjective Integer Linear Optimization</a>. SIAM Journal on    Discrete Mathematics, 23(2):571–595, 2009.</p>
-    <p><strong>[2]</strong> Manuel Bullejos, Emilio Faro, and Víctor Blanco.        <a href="https://link.springer.com/article/10.1007/s10485-005-2957-6", target="_blank">A Full and Faithful Nerve for 2-Categories</a>. Applied Categorical Structures, 13(3):223–233, June 2005.</p>
-    <p><strong>[1]</strong> Víctor Blanco, Manuel Bullejos, and Emilio Faro. <a href="https://link.springer.com/article/10.1007/s00209-005-0787-8", target="_blank">Categorical non-abelian co- homology and the Schreier theory of groupoids</a>. Mathematische Zeitschrift, 251(1):41–59, September 2005.</p>
-
-<div class="btn" id="talks"><p><strong>Talks:</strong></p></div>
-<ul>
-<li><p>The Waste-To-Biomethane Logistic Problem. International Workshop
+/* Final layout refinements */
+#publication-list{overflow:visible}
+#publication-list .paper{min-width:0;align-items:start}
+#publication-list .paper-content{min-width:0;overflow-wrap:anywhere}
+#publication-list .paper-content p{white-space:normal}
+#talks{background:linear-gradient(145deg,#201824,#111824)!important;border-top:3px solid #ff5367;border-bottom:3px solid #ff5367}
+#talks .eyebrow{color:#ff8b98}
+#talks .section-head{padding-bottom:20px;border-bottom:1px solid #ffffff30;margin-bottom:26px}
+#talks .section-head h2{color:#fff}
+#talks .panel{background:transparent;border:0;border-radius:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;overflow:visible}
+#talks .talk{background:#ffffff0d;border:1px solid #ffffff29;border-left:3px solid #ff5367;border-radius:12px;color:#edf0f5;padding:20px 22px;line-height:1.65;transition:background .2s,transform .2s}
+#talks .talk:hover{background:#ffffff18;transform:translateY(-2px)}
+#talks .talk:last-child{border-bottom:1px solid #ffffff29}
+#talks .show-more{color:#fff;border-color:#ff5367;background:#ff5367}
+#students{background:#131924!important;border-top:3px solid #ff5367}
+#students .section-head h2{color:#fff}
+#students .eyebrow{color:#ff8b98}
+#students .section-intro{color:#c5cad3}
+@media(max-width:720px){#talks .panel{grid-template-columns:1fr}}
+</style><style>
+.institution-links{margin:24px 0 0;color:var(--muted);line-height:1.9}.institution-links a{font-weight:650;text-decoration:underline;text-decoration-color:#ff536777;text-underline-offset:4px}#datasets .project-box p{display:flex;gap:12px;flex-wrap:wrap;align-items:center}#datasets .project-box a{font-weight:700}
+</style><style>.hero .affiliation a{color:#f2c0c9;text-decoration:underline;text-decoration-color:#ff536777;text-underline-offset:3px}.hero .affiliation a:hover{color:#fff;text-decoration-color:#fff}</style></head><body>
+<header class="topbar"><div class="shell top-inner"><a class="brand" href="#home">Víctor <span> Blanco</span></a><nav aria-label="Main navigation" class="nav"><a href="#research">Research</a><a href="#preprints">Preprints</a><a href="#publications">Publications</a><a href="#talks">Talks</a><a href="#projects">Projects</a><a href="#datasets">Software &amp; Data</a><a href="#students">PhD Students</a></nav></div></header><div class="hero" id="home"><div class="shell hero-grid"><div><div class="eyebrow">Mathematical optimization · Operations research</div><h1>Víctor &nbsp; Blanco</h1><p class="role">Full Professor · Universidad de Granada</p><p class="affiliation"><a href="https://imag.ugr.es/">Institute of Mathematics (IMAG), Universidad de Granada</a><br/><a href="https://metodoscuantitativos.ugr.es/">Department of Quantitative Methods for Economics &amp; Business, Universidad de Granada</a></p><div class="actions"><a class="button" href="mailto:vblanco@ugr.es">Contact</a><a class="button secondary" href="https://openalex.org/A5076102215" rel="noopener noreferrer" target="_blank">OpenAlex ↗</a><a class="button secondary" href="https://github.com/vblancoOR" rel="noopener noreferrer" target="_blank">GitHub ↗</a><a class="button secondary" href="https://scholar.google.es/citations?user=codO4GkAAAAJ&hl=en" rel="noopener noreferrer" target="_blank">GScholar ↗</a><a class="button secondary" href="https://orcid.org/my-orcid?orcid=0000-0002-7762-6461" rel="noopener noreferrer" target="_blank">ORCID</a></div></div><img alt="Portrait of Víctor Blanco" class="portrait" src="media/image1.png"/></div></div>
+<main><section class="section" id="research"><div class="shell"><div class="eyebrow">Research profile</div><h2>Research interests</h2><p class="tagline">My research lies at the intersection of mathematical optimization, operations research, and their applications to data science and complex networks.</p><div class="research-tags"><span class="tag">Mixed-integer optimization</span><span class="tag">Conic optimization</span><span class="tag">Location science</span><span class="tag">Network design</span><span class="tag">Optimization &amp; machine learning</span></div><p class="institution-links">Affiliations: <a href="https://imag.ugr.es/" rel="noopener noreferrer" target="_blank">IMAG — Institute of Mathematics, University of Granada</a> · <a href="https://metodoscuantitativos.ugr.es/" rel="noopener noreferrer" target="_blank">Department of Quantitative Methods for Economics and Business</a>  </p></div></section><section class="section" id="preprints"><div class="shell"><div class="section-head"><div><div class="eyebrow">Research output</div><h2>Preprints</h2><p class="section-intro">Recent working papers and manuscripts.</p></div></div><div class="panel"><article class="paper" data-search="v blanco and g gonzález. optimization of kinetic--stoichiometric growth bounds over autocatalytic subnetworks" data-year="Preprint"><span class="paper-year">Preprint</span><div class="paper-content"><p> V Blanco and G González. <a href="https://arxiv.org/abs/2607.23107" target="_blank">Optimization of Kinetic--Stoichiometric Growth Bounds over Autocatalytic Subnetworks</a></p></div></article>
+<article class="paper" data-search="v blanco, j.f. camacho-vallejo, and y. hinojosa. a sustainable integrated framework for multi-type urban waste collection and recycling" data-year="Preprint"><span class="paper-year">Preprint</span><div class="paper-content"><p> V Blanco, J.F. Camacho-Vallejo, and Y. Hinojosa. <a href="https://arxiv.org/abs/2606.13524" target="_blank">A Sustainable Integrated Framework for Multi-Type Urban Waste Collection and Recycling</a></p></div></article>
+<article class="paper" data-search="v blanco and m martínez-antón. exact mixed-integer conic liftings for queueing-based cdn design" data-year="Preprint"><span class="paper-year">Preprint</span><div class="paper-content"><p> V Blanco and M Martínez-Antón. <a href="https://arxiv.org/abs/2605.30491" target="_blank">Exact Mixed-Integer Conic Liftings for Queueing-Based CDN Design</a></p></div></article>
+<article class="paper" data-search="v blanco, r gázquez, and jf ocaña-rivas constructing nested self-amplifying multiperiod hypergraphs through mathematical optimization" data-year="Preprint"><span class="paper-year">Preprint</span><div class="paper-content"><p> V Blanco, R Gázquez, and JF Ocaña-Rivas <a href="https://arxiv.org/abs/2604.12511"> Constructing Nested Self-Amplifying Multiperiod Hypergraphs through Mathematical Optimization</a></p></div></article>
+<article class="paper" data-search="v blanco, m martínez-antón, and j puerto. exponential conic optimization for multi-regime service system design under congestion and tail-risk control" data-year="Preprint"><span class="paper-year">Preprint</span><div class="paper-content"><p> V Blanco, M Martínez-Antón, and J Puerto. <a href="https://arxiv.org/abs/2511.01481" target="_blank">Exponential Conic Optimization for Multi-Regime Service System Design under Congestion and Tail-Risk Control</a></p></div></article>
+<article class="paper" data-search="v blanco and m martínez-antón. structural and solution analysis for the ordered weber problem under spatial uncertainty" data-year="Preprint"><span class="paper-year">Preprint</span><div class="paper-content"><p> V Blanco and M Martínez-Antón. <a href="https://arxiv.org/abs/2511.01481" target="_blank">Structural and Solution Analysis for the Ordered Weber Problem under Spatial Uncertainty</a></p></div></article>
+<article class="paper" data-search="v blanco, d. laborda, and m martínez-antón. on the strength of linear relaxations in ordered optimization" data-year="Preprint"><span class="paper-year">Preprint</span><div class="paper-content"><p> V Blanco, D. Laborda, and M Martínez-Antón. <a href="https://arxiv.org/abs/2510.09166" target="_blank">On the Strength of Linear Relaxations in Ordered Optimization</a></p></div></article>
+<article class="paper" data-search="v blanco, a marín, and j puerto. exact matrix seriation through mathematical optimization: stress and effectiveness-based models" data-year="Preprint"><span class="paper-year">Preprint</span><div class="paper-content"><p> V Blanco, A Marín, and J Puerto. <a href="https://arxiv.org/abs/2506.19821" target="_blank">Exact Matrix Seriation through Mathematical Optimization: Stress and Effectiveness-Based Models</a></p></div></article>
+<article class="paper" data-search="m albareda-sambola, v blanco, y hinojosa. coordinating drop-off locations and pickup routes: a budget-constrained routing perspective" data-year="Preprint"><span class="paper-year">Preprint</span><div class="paper-content"><p> M Albareda-Sambola, V Blanco, Y Hinojosa. <a href="https://arxiv.org/pdf/2505.05418" target="_blank">Coordinating Drop-Off Locations and Pickup Routes: A Budget-Constrained Routing Perspective </a></p></div></article>
+<article class="paper" data-search="v blanco, g gonzález, p gagrani. on the optimal growth of autocatalytic subnetworks: a mathematical optimization approach" data-year="Preprint"><span class="paper-year">Preprint</span><div class="paper-content"><p> V Blanco, G González, P Gagrani. <a href="https://arxiv.org/pdf/2412.15776" target="_blank">On the optimal growth of autocatalytic subnetworks: A Mathematical Optimization Approach</a></p></div></article></div></div></section><section class="section" id="publications"><div class="shell"><div class="section-head"><div><div class="eyebrow">Peer-reviewed research</div><h2>Publications</h2><p class="section-intro">Browse the full publication list or search by author, title, or journal.</p></div></div><div class="toolbar"><input aria-label="Search publications" id="publication-search" placeholder="Search publications…" type="search"/><select aria-label="Filter publications by year" id="year-filter"><option value="">All years</option></select></div><div aria-live="polite" class="count" id="publication-count"></div><div class="panel" id="publication-list"><article class="paper" data-search="víctor blanco, inmaculada espejo, raúl páez, and antonio m rodríguez-chía. a mathematical optimization approach to multisphere support vector data description. . pattern recognition, 2026." data-year="2026"><span class="paper-year">2026</span><div class="paper-content"><p> Víctor Blanco, Inmaculada Espejo, Raúl Páez, and Antonio M Rodríguez-Chía. <a href="https://arxiv.org/pdf/2502.03288" target="_blank"> A Mathematical Optimization Approach to Multisphere Support Vector Data Description.</a>. Pattern Recognition, 2026. </p></div></article><article class="paper" data-search="víctor blanco, miguel and miguel martínez-antón. on the structure and computation of extremal mediated graphs with applications to conic optimization. . journal of optimization theory and applications, 2026." data-year="2026"><span class="paper-year">2026</span><div class="paper-content"><p> Víctor Blanco, Miguel and Miguel Martínez-Antón. <a href="https://arxiv.org/pdf/2502.03288" target="_blank">On the structure and computation of extremal mediated graphs with applications to conic optimization.</a>. Journal of Optimization Theory and Applications, 2026. </p></div></article><article class="paper" data-search="víctor blanco, miguel a. pozo, justo puerto, and  alberto torrejon. linear, nested, and quadratic ordered measures: computation and incorporation into optimization problems. . annals of or, 2026." data-year="2026"><span class="paper-year">2026</span><div class="paper-content"><p> Víctor Blanco, Miguel A. Pozo, Justo Puerto, and  Alberto Torrejon. <a href="https://arxiv.org/pdf/2503.18097" target="_blank">Linear, nested, and quadratic ordered measures: Computation and incorporation into optimization problems.</a>. Annals of OR, 2026. </p></div></article><article class="paper" data-search="víctor blanco, fernando camacho-vallejo, and carlos corpus. the hub location and pricing problem under a tree topology: a bilevel formulation and a co-evolutionary algorithm . international transactions in operational research, 2026." data-year="2026"><span class="paper-year">2026</span><div class="paper-content"><p> Víctor Blanco, Fernando Camacho-Vallejo, and Carlos Corpus. <a href="https://arxiv.org/pdf/2503.00561" target="_blank">The Hub Location and Pricing Problem under a Tree Topology: A Bilevel Formulation and a Co-Evolutionary Algorithm</a>. International Transactions in Operational Research, 2026. </p></div></article><article class="paper" data-search="víctor blanco, alberto japón, justo puerto, peter zhang. weighted optimal classification forests . informs j on computing, 2026." data-year="2026"><span class="paper-year">2026</span><div class="paper-content"><p> Víctor Blanco, Alberto Japón, Justo Puerto, Peter Zhang. <a href="https://github.com/INFORMSJoC/2025.1475" target="_blank">Weighted Optimal Classification Forests</a>. INFORMS J on Computing, 2026. </p></div></article><article class="paper" data-search="víctor blanco, harshit kothari, and jim luedtke. a unified optimization framework for multiclass classification with structured hyperplane arrangements . computational optimization and applications, 2026." data-year="2026"><span class="paper-year">2026</span><div class="paper-content"><p> Víctor Blanco, Harshit Kothari, and Jim Luedtke. <a href="https://arxiv.org/abs/2510.05047" target="_blank">A Unified Optimization Framework for Multiclass Classification with Structured Hyperplane Arrangements</a>. Computational Optimization and Applications, 2026.</p></div></article><article class="paper" data-search="víctor blanco, alberto japón, justo puerto, and peter zhang. optimal probabilistic feature shifts for reclassification in tree ensembles . pattern recognition 174, 2026, 112980." data-year="2026"><span class="paper-year">2026</span><div class="paper-content"><p> Víctor Blanco, Alberto Japón, Justo Puerto, and Peter Zhang. <a href="https://doi.org/10.1016/j.patcog.2025.112980" target="_blank">Optimal probabilistic feature shifts for reclassification in tree ensembles</a>. Pattern Recognition 174, 2026, 112980.</p></div></article><article class="paper" data-search="víctor blanco, victor magron, miguel martínez-antón. on the complexity of p-order cone programs . journal of complexity 91, 2025, 101979." data-year="2025"><span class="paper-year">2025</span><div class="paper-content"><p> Víctor Blanco, Victor Magron, Miguel Martínez-Antón. <a href="https://doi.org/10.1016/j.jcom.2025.101698" target="_blank">On the Complexity of p-Order Cone Programs</a>. Journal of Complexity 91, 2025, 101979.</p></div></article><article class="paper" data-search="víctor blanco, ricardo gázquez, marina leal. incorporation of regional preferences in facility location: insights into efficiency and satisfaction trade-offs . transportation research part e 203, 2025, 104328." data-year="2025"><span class="paper-year">2025</span><div class="paper-content"><p> Víctor Blanco, Ricardo Gázquez, Marina Leal. <a href="https://doi.org/10.1016/j.tre.2025.104328" target="_blank">Incorporation of Regional Preferences in Facility Location: Insights into Efficiency and Satisfaction Trade-offs </a>. Transportation Research Part E 203, 2025, 104328.
+    </p></div></article><article class="paper" data-search="víctor blanco, gabriel gonzález, and justo puerto. fixed topology minimum-length trees with neighborhoods . computers &amp; industrial engineering 207, 2025, 111331." data-year="2025"><span class="paper-year">2025</span><div class="paper-content"><p> Víctor Blanco, Gabriel González, and Justo Puerto. <a href="https://doi.org/10.1016/j.cie.2025.111331" target="_blank">Fixed Topology Minimum-Length Trees with Neighborhoods</a>. Computers &amp; Industrial Engineering 207, 2025, 111331. </p></div></article><article class="paper" data-search="praful gagrani, víctor blanco, eric smith, and david baum. polyhedral geometry and combinatorics of an autocatalytic ecosystem . journal of mathematical chemistry 62 (5), 1012-1078." data-year="2024"><span class="paper-year">2024</span><div class="paper-content"><p> Praful Gagrani, Víctor Blanco, Eric Smith, and David Baum. <a href="https://link.springer.com/article/10.1007/s10910-024-01576-x" target="_blank">Polyhedral geometry and combinatorics of an autocatalytic ecosystem</a>. Journal of Mathematical Chemistry 62 (5), 1012-1078.</p></div></article><article class="paper" data-search="víctor blanco and miguel martínez-antón. on minimal extended representations of generalized power cones . siam j optimization 34(3), 3088-3111, 2024." data-year="2024"><span class="paper-year">2024</span><div class="paper-content"><p> Víctor Blanco and Miguel Martínez-Antón. <a ,="" href="https://epubs.siam.org/doi/10.1137/23M1617205" target="_blank"> On minimal extended representations of generalized power cones</a>. SIAM J Optimization 34(3), 3088-3111, 2024.</p></div></article><article class="paper" data-search="víctor blanco and miguel martínez-antón. optimal coverage-based placement of static leak detection devices for pipeline water supply networks . omega 122, 102956" data-year="2024"><span class="paper-year">2024</span><div class="paper-content"><p> Víctor Blanco and Miguel Martínez-Antón. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0305048323001202" target="_blank"> Optimal coverage-based placement of static leak detection devices for pipeline water supply networks</a>. Omega 122, 102956</p></div></article><article class="paper" data-search="víctor blanco, alfredo marín, and justo puerto. intra-facility equity in discrete and continuous p-facility location problems . computers &amp; operations research 162 (2024): 106487." data-year="2024"><span class="paper-year">2024</span><div class="paper-content"><p> Víctor Blanco, Alfredo Marín, and Justo Puerto. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0305054823003519" target="_blank"> Intra-facility equity in discrete and continuous p-facility location problems</a>. Computers &amp; Operations Research 162 (2024): 106487.</p></div></article><article class="paper" data-search="víctor blanco, yolanda hinojosa, and víctor zavala. the waste-to-biomethane logistic problem: a mathematical optimization approach . acs sustainable chemistry &amp; engineering 12(22). 2024." data-year="2024"><span class="paper-year">2024</span><div class="paper-content"><p> Víctor Blanco, Yolanda Hinojosa, and Víctor Zavala. <a ,="" href="https://pubs.acs.org/doi/abs/10.1021/acssuschemeng.4c01429" target="_blank"> The Waste-to-Biomethane Logistic Problem: A Mathematical Optimization Approach</a>. ACS Sustainable Chemistry &amp; Engineering 12(22). 2024.</p></div></article><article class="paper" data-search="víctor blanco, gabriel gonzález, yolanda hinojosa, diego ponce, miguel a pozo and justo puerto. the pipelines and cable trays location problem in naval design . ocean engineering, 286:115525, 2023." data-year="2023"><span class="paper-year">2023</span><div class="paper-content"><p> Víctor Blanco, Gabriel González, Yolanda Hinojosa, Diego Ponce, Miguel A Pozo and Justo Puerto.  <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0029801823019091" target="_blank">The pipelines and cable trays location problem in naval design</a>. Ocean Engineering, 286:115525, 2023. </p></div></article><article class="paper" data-search="víctor blanco, ricardo gázquez, and francisco saldanha-da gama. multi-type maximal covering location problems: hybridizing discrete and continuous problems . european journal of operational research, 307(3):1040–1054, 2023." data-year="2023"><span class="paper-year">2023</span><div class="paper-content"><p> Víctor Blanco, Ricardo Gázquez, and Francisco Saldanha-da Gama. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0377221722008256" target="_blank">Multi-type maximal covering location problems: Hybridizing discrete and continuous problems</a>. European Journal of Operational Research, 307(3):1040–1054, 2023.</p></div></article><article class="paper" data-search="víctor blanco, ricardo gázquez, diego ponce, and justo puerto. a branch-and-price approach for the continuous multifacility monotone ordered median problem . european journal of operational research, 306(1):105–126, april 2023." data-year="2023"><span class="paper-year">2023</span><div class="paper-content"><p> Víctor Blanco, Ricardo Gázquez, Diego Ponce, and Justo Puerto. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0377221722005744" target="_blank">A branch-and-price approach for the continuous multifacility monotone ordered median problem</a>. European Journal of Operational Research, 306(1):105–126, April 2023.</p></div></article><article class="paper" data-search="víctor blanco and ricardo gázquez. fairness in maximal covering location problems . computers &amp; operations research, 157:106287, 2023." data-year="2023"><span class="paper-year">2023</span><div class="paper-content"><p> Víctor Blanco and Ricardo Gázquez. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S030505482300151X" target="_blank">Fairness in maximal covering location problems</a>. Computers &amp; Operations Research, 157:106287, 2023. </p></div></article><article class="paper" data-search="víctor blanco, elena fernández, and yolanda hinojosa. hub location with protection under interhub link failures . informs journal on computing, 2023." data-year="2023"><span class="paper-year">2023</span><div class="paper-content"><p> Víctor Blanco, Elena Fernández, and Yolanda Hinojosa. <a ,="" href="" target="_blank">Hub Location with Protection Under Interhub Link Failures</a>. INFORMS Journal on Computing, 2023.</p></div></article><article class="paper" data-search="víctor blanco and justo puerto. on hub location problems in geographically flexible networks . international transactions in operational research, 29(4):2226–2249, 2022." data-year="2022"><span class="paper-year">2022</span><div class="paper-content"><p> Víctor Blanco and Justo Puerto. <a ,="" href="https://pubsonline.informs.org/doi/abs/10.1287/ijoc.2023.1296" target="_blank">On hub location problems in geographically flexible networks</a>. International Transactions in Operational Research, 29(4):2226–2249, 2022.</p></div></article><article class="paper" data-search="victor blanco, alberto japón, and justo puerto. robust optimal classification trees under noisy labels . advances in data analysis and classification, 16(1):155–179, march 2022." data-year="2022"><span class="paper-year">2022</span><div class="paper-content"><p> Victor Blanco, Alberto Japón, and Justo Puerto. <a ,="" href="https://link.springer.com/article/10.1007/s11634-021-00467-2" target="_blank">Robust optimal classification trees under noisy labels</a>. Advances in Data Analysis and Classification, 16(1):155–179, March 2022.</p></div></article><article class="paper" data-search="víctor blanco, alberto japón, and justo puerto. a mathematical programming approach to svm-based classification with label noise . computers &amp; industrial engineering, 172:108611, october    2022." data-year="2022"><span class="paper-year">2022</span><div class="paper-content"><p> Víctor Blanco, Alberto Japón, and Justo Puerto. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0360835222006039" target="_blank">A mathematical programming approach to SVM-based classification with label noise</a>. Computers &amp; Industrial Engineering, 172:108611, October    2022.</p></div></article><article class="paper" data-search="víctor blanco, gabriel gonzález, yolanda hinojosa, diego ponce, miguel a. pozo, and justo puerto. network flow based approaches for the pipelines routing problem in naval design . omega, 111:102659, september 2022." data-year="2022"><span class="paper-year">2022</span><div class="paper-content"><p> Víctor Blanco, Gabriel González, Yolanda Hinojosa, Diego Ponce, Miguel A. Pozo, and Justo Puerto. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0305048322000664" target="_blank">Network flow based approaches for the pipelines routing problem in naval design</a>. Omega, 111:102659, September 2022.</p></div></article><article class="paper" data-search="víctor blanco, ricardo gázquez, and marina leal. mathematical optimization models for reallocating and sharing health equipment in pandemic situations . top, september 2022." data-year="2022"><span class="paper-year">2022</span><div class="paper-content"><p> Víctor Blanco, Ricardo Gázquez, and Marina Leal. <a ,="" href="https://link.springer.com/article/10.1007/s11750-022-00643-3" target="_blank">Mathematical optimization models for reallocating and sharing health equipment in pandemic situations</a>. TOP, September 2022.</p></div></article><article class="paper" data-search="víctor blanco and justo puerto. covering problems with polyellipsoids: a location analysis perspective . european journal of operational research, 289(1):44–58, february 2021." data-year="2021"><span class="paper-year">2021</span><div class="paper-content"><p> Víctor Blanco and Justo Puerto. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0377221720306093" target="_blank">Covering problems with polyellipsoids: A location analysis perspective</a>. European Journal of Operational Research, 289(1):44–58, February 2021.</p></div></article><article class="paper" data-search="v. blanco, a. japón, d. ponce, and j. puerto. on the multisource hyperplanes location problem to fitting set of points . computers &amp; operations research, 128:105124, april 2021." data-year="2021"><span class="paper-year">2021</span><div class="paper-content"><p> V. Blanco, A. Japón, D. Ponce, and J. Puerto. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0305054820302410" target="_blank">On the multisource hyperplanes location problem to fitting set of points</a>. Computers &amp; Operations Research, 128:105124, April 2021.</p></div></article><article class="paper" data-search="wissem achour, djamal chaabane, and víctor blanco. an improved algorithm to compute the ω-primality . optimization letters, 15(1):97–107, february 2021." data-year="2021"><span class="paper-year">2021</span><div class="paper-content"><p> Wissem Achour, Djamal Chaabane, and Víctor Blanco. <a ,="" href="https://link.springer.com/article/10.1007/s11590-020-01589-w" target="_blank">An improved algorithm to compute the ω-primality</a>. Optimization Letters, 15(1):97–107, February 2021.</p></div></article><article class="paper" data-search="vıctor blanco, justo puerto, and antonio rodríguez-chía. on lp-support vector machines and multidimensional kernels . journal of machine learning research, 21(1):469–497, 2020." data-year="2020"><span class="paper-year">2020</span><div class="paper-content"><p> Vıctor Blanco, Justo Puerto, and Antonio Rodríguez-Chía. <a ,="" href="https://www.jmlr.org/papers/v21/18-601.html" target="_blank">On lp-Support Vector Machines and Multidimensional Kernels</a>. Journal of Machine Learning Research, 21(1):469–497, 2020.</p></div></article><article class="paper" data-search="víctor blanco, alberto japón, and justo puerto. optimal arrangements of hyperplanes for svm-based multiclass classification . advances in data analysis and classification, 14(1):175–199, march 2020." data-year="2020"><span class="paper-year">2020</span><div class="paper-content"><p> Víctor Blanco, Alberto Japón, and Justo Puerto. <a ,="" href="https://link.springer.com/article/10.1007/s11634-019-00367-6" target="_blank">Optimal arrangements of hyperplanes for SVM-based multiclass classification</a>. Advances in Data Analysis and Classification, 14(1):175–199, March 2020.</p></div></article><article class="paper" data-search="víctor blanco, eduardo conde, yolanda hinojosa, and justo puerto. an optimization model for line planning and timetabling in automated urban metro subway networks. a case study . omega, 92:102165, april 2020." data-year="2020"><span class="paper-year">2020</span><div class="paper-content"><p> Víctor Blanco, Eduardo Conde, Yolanda Hinojosa, and Justo Puerto. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0305048319307492" target="_blank">An optimization model for line planning and timetabling in automated urban metro subway networks. A case study</a>. Omega, 92:102165, April 2020.</p></div></article><article class="paper" data-search="manuel arana-jiménez, víctor blanco, and elena fernández. on the fuzzy maximal covering location problem . european     journal of operational research, 283(2):692–705, june 2020." data-year="2020"><span class="paper-year">2020</span><div class="paper-content"><p> Manuel Arana-Jiménez, Víctor Blanco, and Elena Fernández. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0377221719309476" target="_blank">On the fuzzy maximal covering location problem</a>. European     Journal of Operational Research, 283(2):692–705, June 2020.</p></div></article><article class="paper" data-search="víctor blanco and alfredo marín. upgrading    nodes in tree-shaped hub location . computers &amp; operations research,    102:75–90, february 2019." data-year="2019"><span class="paper-year">2019</span><div class="paper-content"><p> Víctor Blanco and Alfredo Marín. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0305054818302600" target="_blank">Upgrading    nodes in tree-shaped hub location</a>. Computers &amp; Operations Research,    102:75–90, February 2019.</p></div></article><article class="paper" data-search="víctor blanco. ordered p-median problems with    neighbourhoods . computational optimization and applications, 73(2):603–645, june 2019." data-year="2019"><span class="paper-year">2019</span><div class="paper-content"><p> Víctor Blanco. <a ,="" href="https://link.springer.com/article/10.1007/s10589-019-00077-x" target="_blank">Ordered p-median problems with    neighbourhoods</a>. Computational Optimization and Applications, 73(2):603–645, June 2019.</p></div></article><article class="paper" data-search="manuel arana-jiménez and víctor blanco. on a    fully fuzzy framework for mini-max mixed integer linear programming. computers &amp; industrial engineering, 128:170–179, february 2019." data-year="2019"><span class="paper-year">2019</span><div class="paper-content"><p> Manuel Arana-Jiménez and Víctor Blanco. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0360835218306326" target="_blank">On a    fully fuzzy framework for mini-max mixed integer linear programming.</a> Computers &amp; Industrial Engineering, 128:170–179, February 2019.</p></div></article><article class="paper" data-search="víctor blanco, román salmerón, and samuel    gómez-haro. a multicriteria selection system based on player    performance: case study—the spanish acb basketball league . group decision and negotiation, 27(6):1029–1046, december 2018." data-year="2018"><span class="paper-year">2018</span><div class="paper-content"><p> Víctor Blanco, Román Salmerón, and Samuel    Gómez-Haro. <a ,="" href="https://link.springer.com/article/10.1007/s10726-018-9583-9" target="_blank">A Multicriteria Selection System Based on Player    Performance: Case Study—The Spanish ACB Basketball League</a>. Group Decision and Negotiation, 27(6):1029–1046, December 2018.</p></div></article><article class="paper" data-search="víctor blanco, justo puerto, and románsalmerón. locating hyperplanes to fitting set of points: a general framework . computers &amp; operations research, 95:172–193, july    2018." data-year="2018"><span class="paper-year">2018</span><div class="paper-content"><p> Víctor Blanco, Justo Puerto, and RománSalmerón. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0305054818300789" target="_blank">Locating hyperplanes to fitting set of points: A general framework</a>. Computers &amp; Operations Research, 95:172–193, July    2018.</p></div></article><article class="paper" data-search="víctor blanco and josé m. pérez-sánchez. on the aggregation of expert’s information in bonus-malus systems . astin    bulletin, 48(1):311–337, january 2018." data-year="2018"><span class="paper-year">2018</span><div class="paper-content"><p> Víctor Blanco and José M. Pérez-Sánchez. <a ,="" href="https://www.cambridge.org/core/journals/astin-bulletin-journal-of-the-iaa/article/on-the-aggregation-of-experts-information-in-bonusmalus-systems/2F4905C1568E5E1DDB16F7E8D37D69A8" target="_blank">On the aggregation of expert’s information in Bonus-Malus systems</a>. ASTIN    Bulletin, 48(1):311–337, January 2018.</p></div></article><article class="paper" data-search="víctor blanco, justo puerto, and diego ponce. continuous location under the. effect of 'refraction' . mathematical programming, 161(1-2):33–72, january 2017." data-year="2017"><span class="paper-year">2017</span><div class="paper-content"><p> Víctor Blanco, Justo Puerto, and Diego Ponce. <a ,="" href="https://link.springer.com/article/10.1007/s10107-016-1002-x" target="_blank">Continuous location under the. effect of 'refraction'</a>. Mathematical Programming, 161(1-2):33–72, January 2017.</p></div></article><article class="paper" data-search="víctor blanco, elena fernández, and justo     puerto. minimum spanning trees with neighborhoods: mathematical programming formulations and solution methods . european journal of    operational research, 262(3):863–878, november 2017." data-year="2017"><span class="paper-year">2017</span><div class="paper-content"><p> Víctor Blanco, Elena Fernández, and Justo     Puerto. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0377221717303569" target="_blank">Minimum Spanning Trees with neighborhoods: Mathematical programming formulations and solution methods</a>. European Journal of    Operational Research, 262(3):863–878, November 2017.</p></div></article><article class="paper" data-search="román salmerón and víctor blanco. el problema    de un tamaño muestral pequeño en la regresion lineal: micronumerosidad . @recta, 17:167–177, 2016." data-year="2016"><span class="paper-year">2016</span><div class="paper-content"><p> Román Salmerón and Víctor Blanco. <a ,="" href="https://dialnet.unirioja.es/servlet/articulo?codigo=6466471" target="_blank">El problema    de un tamaño muestral pequeño en la regresion lineal: Micronumerosidad</a>. @Recta, 17:167–177, 2016.</p></div></article><article class="paper" data-search="víctor blanco, justo puerto, and safae el-haj    ben-ali. continuous multifacility ordered median location problems .european journal of operational research, 250(1):56–64, april 2016." data-year="2016"><span class="paper-year">2016</span><div class="paper-content"><p> Víctor Blanco, Justo Puerto, and Safae El-Haj    Ben-Ali. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0377221715009911" target="_blank">Continuous multifacility ordered median location problems</a>.European Journal of Operational Research, 250(1):56–64, April 2016.</p></div></article><article class="paper" data-search="víctor blanco and justo puerto. short rational     generating functions for solving some families of fuzzy integer programming problems . fuzzy sets and systems,272:30–46, august 2015." data-year="2015"><span class="paper-year">2015</span><div class="paper-content"><p> Víctor Blanco and Justo Puerto. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0165011414004916" target="_blank">Short rational     generating functions for solving some families of fuzzy integer programming problems</a>. Fuzzy Sets and Systems,272:30–46, August 2015.</p></div></article><article class="paper" data-search="victor blanco, justo puerto, and safae el haj    ben ali. a semidefinite programming approach for solving multiobjectivelinear programming . journal of global optimization, 58(3):465–480, march    2014." data-year="2014"><span class="paper-year">2014</span><div class="paper-content"><p> Victor Blanco, Justo Puerto, and Safae El Haj    Ben Ali. <a ,="" href="https://link.springer.com/article/10.1007/s10898-013-0056-z" target="_blank">A Semidefinite Programming approach for solving MultiobjectiveLinear Programming</a>. Journal of Global Optimization, 58(3):465–480, March    2014.</p></div></article><article class="paper" data-search="victor blanco, justo puerto, and safae el haj    ben ali. revisiting several problems and algorithms in continuouslocation with l_tau-norms . computational optimization andapplications, 58(3):563–595, july 2014." data-year="2014"><span class="paper-year">2014</span><div class="paper-content"><p> Victor Blanco, Justo Puerto, and Safae El Haj    Ben Ali. <a ,="" href="https://link.springer.com/article/10.1007/s10589-014-9638-z" target="_blank">Revisiting several problems and algorithms in continuouslocation with l_tau-norms</a>. Computational Optimization andApplications, 58(3):563–595, July 2014.</p></div></article><article class="paper" data-search="victor blanco and josé carlos rosales. the tree    of irreducible numerical semigroups with fixed frobenius number . forum math,25(6):1249–1261, november 2013." data-year="2013"><span class="paper-year">2013</span><div class="paper-content"><p> Victor Blanco and José Carlos Rosales. <a ,="" href="https://www.degruyter.com/document/doi/10.1515/form.2011.151/html" target="_blank">The tree    of irreducible numerical semigroups with fixed Frobenius number</a>. Forum Math,25(6):1249–1261, November 2013.</p></div></article><article class="paper" data-search="víctor blanco, safae el haj ben ali, and justo    puerto. minimizing ordered weighted averaging of rational functions with applications to continuous location . computers &amp; operations    research, 40(5):1448–1460, may 2013." data-year="2013"><span class="paper-year">2013</span><div class="paper-content"><p> Víctor Blanco, Safae El Haj Ben Ali, and Justo    Puerto. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S030505481200216X" target="_blank">Minimizing ordered weighted averaging of rational functions with applications to continuous location</a>. Computers &amp; Operations    Research, 40(5):1448–1460, May 2013.</p></div></article><article class="paper" data-search="víctor blanco. irreducible numerical semigroups with multiplicity three and four . semigroup forum, 87(2):407–427, october2013." data-year="2013"><span class="paper-year">2013</span><div class="paper-content"><p> Víctor Blanco. <a ,="" href="https://link.springer.com/article/10.1007/s00233-013-9477-8" target="_blank">Irreducible numerical semigroups    with multiplicity three and four</a>. Semigroup Forum, 87(2):407–427, October2013.</p></div></article><article class="paper" data-search="víctor blanco and jose carlos rosales. the set    of numerical semigroups of a given genus . semigroup forum,    85(2):255–267, october 2012." data-year="2012"><span class="paper-year">2012</span><div class="paper-content"><p> Víctor Blanco and Jose Carlos Rosales. <a ,="" href="https://link.springer.com/article/10.1007/s00233-012-9378-2" target="_blank">The set    of numerical semigroups of a given genus</a>. Semigroup Forum,    85(2):255–267, October 2012.</p></div></article><article class="paper" data-search="víctor blanco and jose carlos rosales. on the    enumeration of the set of numerical semigroups with fixed frobenius    number . computers &amp; mathematics with applications, 63(7):1204–1211,    april 2012." data-year="2012"><span class="paper-year">2012</span><div class="paper-content"><p> Víctor Blanco and Jose Carlos Rosales. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0898122111010893" target="_blank">On the    enumeration of the set of numerical semigroups with fixed Frobenius    number</a>. Computers &amp; Mathematics with Applications, 63(7):1204–1211,    April 2012.</p></div></article><article class="paper" data-search="victor blanco, justo puerto, and safae el haj ben ali. optimizing ordered median functions with applications to single    facility location . in diethard klatte, hans-jakob lüthi, and karl    schmedders, editors, operations research proceedings 2011, pages    329–334. springer berlin heidelberg, berlin, heidelberg, 2012.series" data-year="2012"><span class="paper-year">2012</span><div class="paper-content"><p> Victor Blanco, Justo Puerto, and Safae El Haj Ben Ali. <a ,="" href="https://link.springer.com/chapter/10.1007/978-3-642-29210-1_53" target="_blank">Optimizing ordered median functions with applications to single    facility location</a>. In Diethard Klatte, Hans-Jakob Lüthi, and Karl    Schmedders, editors, Operations Research Proceedings 2011, pages    329–334. Springer Berlin Heidelberg, Berlin, Heidelberg, 2012.Series</p></div></article><article class="paper" data-search="víctor blanco and justo puerto. a new    complexity result on multiobjective linear integer programming using    short rational generating functions . optimization letters,6(3):537–543, march 2012." data-year="2012"><span class="paper-year">2012</span><div class="paper-content"><p> Víctor Blanco and Justo Puerto. <a ,="" href="https://link.springer.com/article/10.1007/s11590-011-0279-1" target="_blank">A new    complexity result on multiobjective linear integer programming using    short rational generating functions</a>. Optimization Letters,6(3):537–543, March 2012.</p></div></article><article class="paper" data-search="víctor blanco and justo puerto. an application    of integer programming to the decomposition of numerical semigroups .    siam journal on discrete mathematics, 26(3):1210–1237, january 2012." data-year="2012"><span class="paper-year">2012</span><div class="paper-content"><p> Víctor Blanco and Justo Puerto. <a ,="" href="https://epubs.siam.org/doi/abs/10.1137/110821809" target="_blank">An Application    of Integer Programming to the Decomposition of Numerical Semigroups</a>.    SIAM Journal on Discrete Mathematics, 26(3):1210–1237, January 2012.</p></div></article><article class="paper" data-search="víctor blanco and jose carlos rosales. irreducibility in the set of numerical semigroups with fixed    multiplicity . international journal of algebra and computation,21(05):731–744, august 2011." data-year="2011"><span class="paper-year">2011</span><div class="paper-content"><p> Víctor Blanco and Jose Carlos Rosales.        <a ,="" href="https://www.worldscientific.com/doi/abs/10.1142/S0218196711006492" target="_blank">Irreducibility in the set of numerical semigroups with fixed    multiplicity</a>. International Journal of Algebra and Computation,21(05):731–744, August 2011.</p></div></article><article class="paper" data-search="víctor blanco, justo puerto, and ana b. ramos. expanding the spanish high-speed railway network . omega, 39(2):138–150,april 2011." data-year="2011"><span class="paper-year">2011</span><div class="paper-content"><p> Víctor Blanco, Justo Puerto, and Ana B. Ramos. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0305048310000654" target="_blank">Expanding the Spanish high-speed railway network</a>. Omega, 39(2):138–150,April 2011.</p></div></article><article class="paper" data-search="víctor blanco and justo puerto. some algebraic    methods for solving multiobjective polynomial integer programs . journalof symbolic computation, 46(5):511–533, may 2011." data-year="2011"><span class="paper-year">2011</span><div class="paper-content"><p> Víctor Blanco and Justo Puerto. <a ,="" href="https://www.sciencedirect.com/science/article/pii/S0747717110001720" target="_blank">Some algebraic    methods for solving multiobjective polynomial integer programs</a>. Journalof Symbolic Computation, 46(5):511–533, May 2011.</p></div></article><article class="paper" data-search="víctor blanco, pedro a. garcía-sánchez, and    justo puerto. counting numerical semigroups with short generatingfunctions . international journal of algebra and computation 21(07):1217–1235, november 2011." data-year="2011"><span class="paper-year">2011</span><div class="paper-content"><p> Víctor Blanco, Pedro A. García-Sánchez, and    Justo Puerto. <a ,="" href="https://www.worldscientific.com/doi/abs/10.1142/S0218196711006911" target="_blank">Counting numerical Semigroups with short generatingfunctions</a>. International Journal of Algebra and Computation 21(07):1217–1235, November 2011.</p></div></article><article class="paper" data-search="víctor blanco, pedro a garcía-sánchez, and    alfred geroldinger. semigroup- theoretical characterizations of    arithmetical invariants with applications to numerical monoids and krull    monoids . illinois journal of mathematics, 55(4):1385–1414, 2011." data-year="2011"><span class="paper-year">2011</span><div class="paper-content"><p> Víctor Blanco, Pedro A García-Sánchez, and    Alfred Geroldinger. <a ,="" href="https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-55/issue-4/Semigroup-theoretical-characterizations-of-arithmetical-invariants-with-applications-to-numerical/10.1215/ijm/1373636689.short" target="_blank">Semigroup- theoretical characterizations of    arithmetical invariants with applications to numerical monoids and Krull    monoids</a>. Illinois Journal of Mathematics, 55(4):1385–1414, 2011.</p></div></article><article class="paper" data-search="víctor blanco, pedro a garcía-sánchez, and    alfred geroldinger. semigroup-theoretical characterizations of    arithmetical invariants with applications to numerical monoids and krullmonoids . actes des rencontres du cirm, 2(2):95–98, 2010." data-year="2010"><span class="paper-year">2010</span><div class="paper-content"><p> Víctor Blanco, Pedro A García-Sánchez, and    Alfred Geroldinger. <a ,="" href="https://acirm.centre-mersenne.org/item/ACIRM_2010__2_2_95_0/" target="_blank">Semigroup-theoretical characterizations of    arithmetical invariants with applications to numerical monoids and krullmonoids</a>. Actes des rencontres du CIRM, 2(2):95–98, 2010.</p></div></article><article class="paper" data-search="victor blanco, luisa carpente, yolanda hinojosa,    and justo puerto. planning for agricultural forage harvesters and    trucks: model, heuristics, and case study . networks and spatial    economics, 10(3):321–343, september 2010." data-year="2010"><span class="paper-year">2010</span><div class="paper-content"><p> Victor Blanco, Luisa Carpente, Yolanda Hinojosa,    and Justo Puerto. <a ,="" href="https://link.springer.com/article/10.1007/s11067-009-9120-0" target="_blank">Planning for Agricultural Forage Harvesters and    Trucks: Model, Heuristics, and Case Study</a>. Networks and Spatial    Economics, 10(3):321–343, September 2010.</p></div></article><article class="paper" data-search="víctor blanco and justo puerto. partial gröbner    bases for multiobjective integer linear optimization . siam journal on    discrete mathematics, 23(2):571–595, 2009." data-year="2009"><span class="paper-year">2009</span><div class="paper-content"><p> Víctor Blanco and Justo Puerto. <a ,="" href="https://epubs.siam.org/doi/abs/10.1137/070698051" target="_blank">Partial Gröbner    Bases for Multiobjective Integer Linear Optimization</a>. SIAM Journal on    Discrete Mathematics, 23(2):571–595, 2009.</p></div></article><article class="paper" data-search="manuel bullejos, emilio faro, and víctor blanco. a full and faithful nerve for 2-categories . applied categorical structures, 13(3):223–233, june 2005." data-year="2005"><span class="paper-year">2005</span><div class="paper-content"><p> Manuel Bullejos, Emilio Faro, and Víctor Blanco.        <a ,="" href="https://link.springer.com/article/10.1007/s10485-005-2957-6" target="_blank">A Full and Faithful Nerve for 2-Categories</a>. Applied Categorical Structures, 13(3):223–233, June 2005.</p></div></article><article class="paper" data-search="víctor blanco, manuel bullejos, and emilio faro. categorical non-abelian co- homology and the schreier theory of groupoids . mathematische zeitschrift, 251(1):41–59, september 2005." data-year="2005"><span class="paper-year">2005</span><div class="paper-content"><p> Víctor Blanco, Manuel Bullejos, and Emilio Faro. <a ,="" href="https://link.springer.com/article/10.1007/s00209-005-0787-8" target="_blank">Categorical non-abelian co- homology and the Schreier theory of groupoids</a>. Mathematische Zeitschrift, 251(1):41–59, September 2005.</p></div></article></div></div></section><section class="section" id="talks"><div class="shell"><div class="section-head"><div><div class="eyebrow">Conferences &amp; seminars</div><h2>Selected talks</h2></div></div><div class="panel" id="talk-list"><article class="talk"><p>The Waste-To-Biomethane Logistic Problem. International Workshop
 on Location Analysis and Related Problems (IWOLOCA). Edinburgh, 7-8
-September 2023.</p></li>
-<li><p>Fairness in the Maximal Covering Location Problem. SIAM
-Optimization 2023. Seattle, June 2023.</p></li>
-<li><p>Location Science meets Machine Learning: Mathematical (discrete)
+September 2023.</p></article>
+<article class="talk"><p>Fairness in the Maximal Covering Location Problem. SIAM
+Optimization 2023. Seattle, June 2023.</p></article>
+<article class="talk"><p>Location Science meets Machine Learning: Mathematical (discrete)
 Optimization approaches for Data Science. SILO Seminar, University of
-Wisconsin-Madison, January, 2023.</p></li>
-<li><p>Math Opt \&amp; Data Science: A Facility Location perspective to
+Wisconsin-Madison, January, 2023.</p></article>
+<article class="talk"><p>Math Opt \&amp; Data Science: A Facility Location perspective to
 Supervised Learning. IS\&amp;E Seminar, University of Lehigh, May
-2023.</p></li>
-<li><p>Optimal routing of pipelines trays in Naval Designs. Invited
-Seminar. Tec Monterrey. May 2023.</p></li>
-<li><p>A travel through location analysis and applications to machine
-learning. ELAVIO 2022. Monterrey, Mexico, June 2022.</p></li>
-<li><p>Fairness in Maximal Covering Location Problems. ALIO/EURO
-2021-2022. Vi\~na del Mar, Chile, April 2022</p></li>
-<li><p>Hub Location with Protection under Link Failures. ALIO/EURO
-2021-2022. Vi\~na del Mar, Chile, April 2022</p></li>
-<li><p>Hybridizing discrete and continuous maximal covering location
-problems. IWOLOCA 2022. Elche, Enero 2022.</p></li>
-<li><p>Problemas de máximo cubrimiento continuo: formulaciones y
+2023.</p></article>
+<article class="talk"><p>Optimal routing of pipelines trays in Naval Designs. Invited
+Seminar. Tec Monterrey. May 2023.</p></article>
+<article class="talk"><p>A travel through location analysis and applications to machine
+learning. ELAVIO 2022. Monterrey, Mexico, June 2022.</p></article>
+<article class="talk"><p>Fairness in Maximal Covering Location Problems. ALIO/EURO
+2021-2022. Vi\~na del Mar, Chile, April 2022</p></article>
+<article class="talk"><p>Hub Location with Protection under Link Failures. ALIO/EURO
+2021-2022. Vi\~na del Mar, Chile, April 2022</p></article>
+<article class="talk"><p>Hybridizing discrete and continuous maximal covering location
+problems. IWOLOCA 2022. Elche, Enero 2022.</p></article>
+<article class="talk"><p>Problemas de máximo cubrimiento continuo: formulaciones y
 metodolog\'ias de resoluci\'on. XIV Seminario de Optimización de
-Recursos. Murcia, Octubre 2021</p></li>
-<li><p>Mathematical Optimization Models for Classification in Datasets
-with Noisy Labels. EURO 2021, Athens, Greece. July, 2021</p></li>
-<li><p>Math Optimization approaches in Location Science, Machine
+Recursos. Murcia, Octubre 2021</p></article>
+<article class="talk"><p>Mathematical Optimization Models for Classification in Datasets
+with Noisy Labels. EURO 2021, Athens, Greece. July, 2021</p></article>
+<article class="talk"><p>Math Optimization approaches in Location Science, Machine
 Learning and Related Topics. Advances on logistics and transportation
 problems on complex networks: Evaluation and conclusions. Fuengirola,
-Malaga, Spain, 2021.</p></li>
-<li><p>Location Analysis Meets Data Science. Machine Learning NeEDS
-Mathematical Optimization. Feb 15th, 2021. Youtube</p></li>
-<li><p>El problema de Weber y problemas de cubrimiento relacionados:
-polielipsoides. Seminario CIO. Youtube</p></li>
-<li><p>Hub location problems with ball-shaped neighborhoods of varying
+Malaga, Spain, 2021.</p></article>
+<article class="talk"><p>Location Analysis Meets Data Science. Machine Learning NeEDS
+Mathematical Optimization. Feb 15th, 2021. Youtube</p></article>
+<article class="talk"><p>El problema de Weber y problemas de cubrimiento relacionados:
+polielipsoides. Seminario CIO. Youtube</p></article>
+<article class="talk"><p>Hub location problems with ball-shaped neighborhoods of varying
 radius. X International Workshop on Locational Analysis and Related
-Problems.Sevilla, 2020.</p></li>
-<li><p>New Integer Programming Formulations for Maximum Covering with
-Ellipses. Congreso Estadística e IO 2019, Alcoy, Spain, 2019.</p></li>
-<li><p>Un viaje desde la localización al análisis de datos. Encuentro
+Problems.Sevilla, 2020.</p></article>
+<article class="talk"><p>New Integer Programming Formulations for Maximum Covering with
+Ellipses. Congreso Estadística e IO 2019, Alcoy, Spain, 2019.</p></article>
+<article class="talk"><p>Un viaje desde la localización al análisis de datos. Encuentro
 Nacional de Estudiantes de Matemáticas ENEM. Granada, 2019.
-Youtube</p></li>
-<li><p>Minimum Enclosing Polyellipses. IX International Workshop on
-Locational Analysis and Related Problems. Cádiz. 2019.</p></li>
-<li><p>Beyond disk-shaped continuous covering location problems.
-Seminario IMUS, Sevilla, November, 2019.</p></li>
-<li><p>Planning and timetabling in automated subway networks, Seminario
-Teoría e Historia Económica, October 2019.</p></li>
-<li><p>Optimal Arrangements of Hyperplanes for Multiclass SVM-Based
-Classification, EURO 2019, Dublin, July 2019.</p></li>
-<li><p>On hub location problems with neighborhoods, EWGLA 2019,
-Brussels, Belgium, June 2019.</p></li>
-<li><p>Duality and multidimensional kernels in $\ell_p$-Support Vector
+Youtube</p></article>
+<article class="talk"><p>Minimum Enclosing Polyellipses. IX International Workshop on
+Locational Analysis and Related Problems. Cádiz. 2019.</p></article>
+<article class="talk"><p>Beyond disk-shaped continuous covering location problems.
+Seminario IMUS, Sevilla, November, 2019.</p></article>
+<article class="talk"><p>Planning and timetabling in automated subway networks, Seminario
+Teoría e Historia Económica, October 2019.</p></article>
+<article class="talk"><p>Optimal Arrangements of Hyperplanes for Multiclass SVM-Based
+Classification, EURO 2019, Dublin, July 2019.</p></article>
+<article class="talk"><p>On hub location problems with neighborhoods, EWGLA 2019,
+Brussels, Belgium, June 2019.</p></article>
+<article class="talk"><p>Duality and multidimensional kernels in $\ell_p$-Support Vector
 Machine, ISMP 2018 (the International Symposium in Mathematical
-Programming) , Bourdeaux (Francia), Julio 2018.</p></li>
-<li><p>Upgrading nodes in tree-shaped hub location, XXXVII Congreso
+Programming) , Bourdeaux (Francia), Julio 2018.</p></article>
+<article class="talk"><p>Upgrading nodes in tree-shaped hub location, XXXVII Congreso
 Nacional de Estad\'istica e Investigaci\'on Operativa, Oviedo, Mayo
-2018.</p></li>
-<li><p>Clustering and Classification: A mathematical programming
+2018.</p></article>
+<article class="talk"><p>Clustering and Classification: A mathematical programming
 approach. RSME-UMA 2017. Buenos Aires (Argentina), December
-2017.</p></li>
-<li><p>Locating separating hyperplanes with $\ell_p$-norms margins.
+2017.</p></article>
+<article class="talk"><p>Locating separating hyperplanes with $\ell_p$-norms margins.
 Conference on Optimization Methods and Software. La Habana (Cuba),
-December 2017.</p></li>
-<li><p>Some models for locational inexactness in combinatorial
+December 2017.</p></article>
+<article class="talk"><p>Some models for locational inexactness in combinatorial
 optimization. Jornadas Programa Doctorado Matemáticas, Universidad de
-Cádiz. Puerto Real, December 2017.</p></li>
-<li><p>On the location of separating hyperplanes with $\ell_p$ norms
+Cádiz. Puerto Real, December 2017.</p></article>
+<article class="talk"><p>On the location of separating hyperplanes with $\ell_p$ norms
 margins. VIII International Workshop on Locational Analysis and Related
-Problems. Segovia, September 2017.</p></li>
-<li><p>Locating hyperplanes to fitting set of points. 21st IFORS. Quebec
-City, July 2017.</p></li>
-<li><p>Discrete Ordered Median Problems with Neighborhoods. ISOLDE XIV.
-Toronto/Huntsville, July 2017.</p></li>
-<li><p>Locational Uncertainty in some Combinatorial Optimization
+Problems. Segovia, September 2017.</p></article>
+<article class="talk"><p>Locating hyperplanes to fitting set of points. 21st IFORS. Quebec
+City, July 2017.</p></article>
+<article class="talk"><p>Discrete Ordered Median Problems with Neighborhoods. ISOLDE XIV.
+Toronto/Huntsville, July 2017.</p></article>
+<article class="talk"><p>Locational Uncertainty in some Combinatorial Optimization
 Problems, Vi Ibero-American Congress On Operations Research And
 Management Sciences (IOCA 2017), Barranquilla , Colombia, March
-2017.</p></li>
-<li><p>Minimum spanning trees with Neighborhoods, Congreso RSME 2017.
-Zaragoza, February 2017.</p></li>
-<li><p>Facility Locational Uncertainty in Discrete Ordered p-Median
-Problems. Seminar on Optimization, Sevilla, December 2016.</p></li>
-<li><p>On minimum spanning trees with norm-based neighborhoods. XVIII
-CLAIO. Santiago de Chile, October, 2016.</p></li>
-<li><p>A mathematical programming model for line planning in subway
-networks. XVIII CLAIO. Santiago de Chile, October, 2016.</p></li>
-<li><p>Inverse-friendly Multiobjective Programs. Seminario Desafios de
-la Matemática combinatoria. Antequera, April 2016.</p></li>
-<li><p>Continuous Facility Location Problems, PreDoc Course on
-Operations Research, Sevilla, November 2015.</p></li>
-<li><p>MINLP Approaches for Minimum Spanning Trees with Neighborhoods,
+2017.</p></article>
+<article class="talk"><p>Minimum spanning trees with Neighborhoods, Congreso RSME 2017.
+Zaragoza, February 2017.</p></article>
+<article class="talk"><p>Facility Locational Uncertainty in Discrete Ordered p-Median
+Problems. Seminar on Optimization, Sevilla, December 2016.</p></article>
+<article class="talk"><p>On minimum spanning trees with norm-based neighborhoods. XVIII
+CLAIO. Santiago de Chile, October, 2016.</p></article>
+<article class="talk"><p>A mathematical programming model for line planning in subway
+networks. XVIII CLAIO. Santiago de Chile, October, 2016.</p></article>
+<article class="talk"><p>Inverse-friendly Multiobjective Programs. Seminario Desafios de
+la Matemática combinatoria. Antequera, April 2016.</p></article>
+<article class="talk"><p>Continuous Facility Location Problems, PreDoc Course on
+Operations Research, Sevilla, November 2015.</p></article>
+<article class="talk"><p>MINLP Approaches for Minimum Spanning Trees with Neighborhoods,
 XXIII Euro Working Group on Locational Analysis, M\'alaga, September
-2016.</p></li>
-<li><p>Multisource Linear Regression, VI International Workshop on
+2016.</p></article>
+<article class="talk"><p>Multisource Linear Regression, VI International Workshop on
 Locational Analysis and Related Problems, Barcelona, November
-2015.</p></li>
-<li><p>Alternative Methods for Linear Regression. ISMP 2015. Pittsburgh,
-July 2015.</p></li>
-<li><p>Continuous location under the effect of refraction. ISMP 2015.
-Pittsburgh, July 2015.</p></li>
-<li><p>A location-based approach to linear regression. SEIO 2015.
-Pamplona, May 2015.</p></li>
-<li><p>Flexible Bonus-Malus Systems induced by OWA optimization. RISK
-2015, Barcelona, May 2015.</p></li>
-<li><p>Localización Continua: Momentos, Sumas de Cuadrados y
-Programación Semidefinida. RMSE 2015, Granada, Febrero 2015.</p></li>
-<li><p>SOCP formulations for continuous location under Refraction.
-INFORMS 2014 Annual Meeting, San Francisco, November 2014.</p></li>
-<li><p>Continuous Location under Refraction. ISOLDE/EWGLA Conference,
-Naples/Capri, June 2014.</p></li>
-<li><p>Flexible Linear Regression. ASEPELT 2014. Málaga, October
-2014.</p></li>
-<li><p>Bonus-Malus Systems under OWA operators. ASEPELT 2014. Málaga,
-October 2014.</p></li>
-<li><p>On continuous location with region-dependent lp distances.
+2015.</p></article>
+<article class="talk"><p>Alternative Methods for Linear Regression. ISMP 2015. Pittsburgh,
+July 2015.</p></article>
+<article class="talk"><p>Continuous location under the effect of refraction. ISMP 2015.
+Pittsburgh, July 2015.</p></article>
+<article class="talk"><p>A location-based approach to linear regression. SEIO 2015.
+Pamplona, May 2015.</p></article>
+<article class="talk"><p>Flexible Bonus-Malus Systems induced by OWA optimization. RISK
+2015, Barcelona, May 2015.</p></article>
+<article class="talk"><p>Localización Continua: Momentos, Sumas de Cuadrados y
+Programación Semidefinida. RMSE 2015, Granada, Febrero 2015.</p></article>
+<article class="talk"><p>SOCP formulations for continuous location under Refraction.
+INFORMS 2014 Annual Meeting, San Francisco, November 2014.</p></article>
+<article class="talk"><p>Continuous Location under Refraction. ISOLDE/EWGLA Conference,
+Naples/Capri, June 2014.</p></article>
+<article class="talk"><p>Flexible Linear Regression. ASEPELT 2014. Málaga, October
+2014.</p></article>
+<article class="talk"><p>Bonus-Malus Systems under OWA operators. ASEPELT 2014. Málaga,
+October 2014.</p></article>
+<article class="talk"><p>On continuous location with region-dependent lp distances.
 International Workshop on Locational Analysis and Related Problems.
-Sevilla, October, 2014.</p></li>
-<li><p>Continuous Multifacility Ordered Median Location Problems. 20th
-IFORS, Barcelona, July 2014..</p></li>
-<li><p>A Unifffied Approach for Solving Continuous Multifacility Ordered
+Sevilla, October, 2014.</p></article>
+<article class="talk"><p>Continuous Multifacility Ordered Median Location Problems. 20th
+IFORS, Barcelona, July 2014..</p></article>
+<article class="talk"><p>A Unifffied Approach for Solving Continuous Multifacility Ordered
 Median Location Problems. SIAM Optimization, San Diego, California May
-2014.</p></li>
-<li><p>Exploiting Symmetries in Multifacility Location. Cuarta Reunión
+2014.</p></article>
+<article class="talk"><p>Exploiting Symmetries in Multifacility Location. Cuarta Reunión
 del Proyecto de Excelencia de la Junta de Andalucía FQM-5849. Priego de
-Córdoba, 2013.</p></li>
-<li><p>An unified approach for continuous lp ordered median
+Córdoba, 2013.</p></article>
+<article class="talk"><p>An unified approach for continuous lp ordered median
 single-facility location problems. SEIO 2013, Castellón, Septiembre
-2013.</p></li>
-<li><p>A semidefinite programming approach for solving mutiobjective
-linear programming. SEIO 2013, Castellón, Septiembre 2013.</p></li>
-<li><p>An interior point-based method to solve multiobjective linear
-programs. EURO 2013. Roma, Julio 2013.</p></li>
-<li><p>A Semidefinite Programming Approach for Solving Multiobjective
+2013.</p></article>
+<article class="talk"><p>A semidefinite programming approach for solving mutiobjective
+linear programming. SEIO 2013, Castellón, Septiembre 2013.</p></article>
+<article class="talk"><p>An interior point-based method to solve multiobjective linear
+programs. EURO 2013. Roma, Julio 2013.</p></article>
+<article class="talk"><p>A Semidefinite Programming Approach for Solving Multiobjective
 Linear Programming. International Conference on Multicriteria Decision
-Making 2013, Málaga.</p></li>
-<li><p>Algunas Aplicaciones de la Optimización Discreta en Álgebra
-Computacional. RSME 2013, Santiago de Compostela.</p></li>
-<li><p>25 minutes on polynomials, SDP and Loaction Theory. RSME 2013,
-Santiago de Compostela.</p></li>
-<li><p>Localización y Problemas Afines: Algoritmos y Aplicaciones.
-Seminario MCEE 2012-2013. Granada, December , 2012.</p></li>
-<li><p>Applications of discrete optimization to numerical semigroups.
-ISMP 2012, Berlin, Germany, August 2012.</p></li>
-<li><p>A hierarchy of SDP-relaxations for multifacility ordered median
-location problems. EURO 2012. Vilnius, Lituania, July 2012.</p></li>
-<li><p>A semidefinite programming approach for solving mutiobjective
-linear programming. SEIO 2012. Madrid, April 2012.</p></li>
-<li><p>Continuous Location, Polynomials and Semidefinite Programming.
-INFORMS 2011 Annual Meeting, Charlotte, NC, USA, November 2011.</p></li>
-<li><p>An Integer programming approach to some problems in Numerical
-Semigroups. INFORMS Annual Meeting, Charlotte, NC, USA, 2011.</p></li>
-<li><p>The Kunz-coordinates vectors of a numerical semigroup. I Congreso
+Making 2013, Málaga.</p></article>
+<article class="talk"><p>Algunas Aplicaciones de la Optimización Discreta en Álgebra
+Computacional. RSME 2013, Santiago de Compostela.</p></article>
+<article class="talk"><p>25 minutes on polynomials, SDP and Loaction Theory. RSME 2013,
+Santiago de Compostela.</p></article>
+<article class="talk"><p>Localización y Problemas Afines: Algoritmos y Aplicaciones.
+Seminario MCEE 2012-2013. Granada, December , 2012.</p></article>
+<article class="talk"><p>Applications of discrete optimization to numerical semigroups.
+ISMP 2012, Berlin, Germany, August 2012.</p></article>
+<article class="talk"><p>A hierarchy of SDP-relaxations for multifacility ordered median
+location problems. EURO 2012. Vilnius, Lituania, July 2012.</p></article>
+<article class="talk"><p>A semidefinite programming approach for solving mutiobjective
+linear programming. SEIO 2012. Madrid, April 2012.</p></article>
+<article class="talk"><p>Continuous Location, Polynomials and Semidefinite Programming.
+INFORMS 2011 Annual Meeting, Charlotte, NC, USA, November 2011.</p></article>
+<article class="talk"><p>An Integer programming approach to some problems in Numerical
+Semigroups. INFORMS Annual Meeting, Charlotte, NC, USA, 2011.</p></article>
+<article class="talk"><p>The Kunz-coordinates vectors of a numerical semigroup. I Congreso
 de Jóvenes Investigadores de la RSME. Soria, Spain, September,
-2011.</p></li>
-<li><p>A semidefinite programming approach for location problems.
+2011.</p></article>
+<article class="talk"><p>A semidefinite programming approach for location problems.
 International Conference on Operations Research. Zurich, Switzerland,
-2011.</p></li>
-<li><p>Numerical Semigroups and Discrete Optimization. IFORS 2011.
-Melbourne, Australia, July 2011.</p></li>
-<li><p>Descomposiciones Minimales en semigrupos numéricos
+2011.</p></article>
+<article class="talk"><p>Numerical Semigroups and Discrete Optimization. IFORS 2011.
+Melbourne, Australia, July 2011.</p></article>
+<article class="talk"><p>Descomposiciones Minimales en semigrupos numéricos
 m-irreducibles. Seminario de Semigrupos Numéricos. Cádiz, Spain, April
-2011.</p></li>
-<li><p>Some algebraic methods for solving multiobjective discrete
+2011.</p></article>
+<article class="talk"><p>Some algebraic methods for solving multiobjective discrete
 optimization problems. Exploratory Worshop on Mixed Integer Non-Linear
-Programming. December 2010, Sevilla, Spain. (poster)</p></li>
-<li><p>Semigroup-theoretical characterizations of arithmetical
+Programming. December 2010, Sevilla, Spain. (poster)</p></article>
+<article class="talk"><p>Semigroup-theoretical characterizations of arithmetical
 invariants with applications to numerical monoids and Krull monoids.
 Third International Meeting on Integer-Valued Polynomials. November
-2010, Luminy, Marseille, France.</p></li>
-<li><p>Applications of Discrete Optimization in Commutative Algebra.
+2010, Luminy, Marseille, France.</p></article>
+<article class="talk"><p>Applications of Discrete Optimization in Commutative Algebra.
 Toric Geometry Seminar 2010. Jarandilla de la Vera, Cáceres,
-Spain</p></li>
-<li><p>Programación Entera en Álgebra Conmutativa.. XXXII Congreso de
+Spain</p></article>
+<article class="talk"><p>Programación Entera en Álgebra Conmutativa.. XXXII Congreso de
 Estadística e Investigación Operativa, September 2010, A
-Coruña.</p></li>
-<li><p>A new complexity result on multiobjective integer programming..
+Coruña.</p></article>
+<article class="talk"><p>A new complexity result on multiobjective integer programming..
 XXIV EURO European Conference of Operational Research. Lisbon, Portugal,
-July 2010.</p></li>
-<li><p>Generating functions for counting numerical semigroups of a given
+July 2010.</p></article>
+<article class="talk"><p>Generating functions for counting numerical semigroups of a given
 genus. Iberian meeting on numerical semigroups. Granada (Spain).
-January, 2010.</p></li>
-<li><p>On the complexity of some fuzzy integer programs. The Pyrenees
+January, 2010.</p></article>
+<article class="talk"><p>On the complexity of some fuzzy integer programs. The Pyrenees
 International Workshop on Statistics, Probability and Operations
-Research. Jaca (Huesca), September 2009</p></li>
-<li><p>An algebraic approach to fuzzy integer programming. 20th
+Research. Jaca (Huesca), September 2009</p></article>
+<article class="talk"><p>An algebraic approach to fuzzy integer programming. 20th
 International Symposium on Mathematical Programming (ISMP). Chicago,
-August 2009.</p></li>
-<li><p>Multiobjective Polynomial Programming and Systems of Polynomial
+August 2009.</p></article>
+<article class="talk"><p>Multiobjective Polynomial Programming and Systems of Polynomial
 Equations. Graduate Seminar, Dpt. Mathematics, Universiy of California
-at Davis. Augist 2009.</p></li>
-<li><p>Solving multiobjective integel linear programs using short
+at Davis. Augist 2009.</p></article>
+<article class="talk"><p>Solving multiobjective integel linear programs using short
 generating functions. 20th International Conference on Multicriteria
-Decision Making (MCDM). Chengdú (China), June 2009.</p></li>
-<li><p>Planning Routes for Harvesters and Trucks in an Agricultural
+Decision Making (MCDM). Chengdú (China), June 2009.</p></article>
+<article class="talk"><p>Planning Routes for Harvesters and Trucks in an Agricultural
 Cooperative.XXXI Congreso Nacional de Estadística e Investigación
-Operativa. February 2009. Murcia.</p></li>
-<li><p>Resolución de Problemas Multiobjetivo Polinómicos Discretos con
+Operativa. February 2009. Murcia.</p></article>
+<article class="talk"><p>Resolución de Problemas Multiobjetivo Polinómicos Discretos con
 Bases de Gröbner. XXXI Congreso Nacional de Estadística e Investigación
-Operativa. February 2009. Murcia.</p></li>
-<li><p>Solving an actual optimization routing problem for an
+Operativa. February 2009. Murcia.</p></article>
+<article class="talk"><p>Solving an actual optimization routing problem for an
 agricultural cooperative. EURO Working Group on Locational Analysis
-(EWGLA) 2008. Elche (Alicante), 15-19 September 2008.</p></li>
-<li><p>Multiobjective Polynomial Integer Programming using Groebner
+(EWGLA) 2008. Elche (Alicante), 15-19 September 2008.</p></article>
+<article class="talk"><p>Multiobjective Polynomial Integer Programming using Groebner
 Bases. Conference on Applications of Computer Algebra. Linz (Austria),
-27-30 July de 2008.</p></li>
-<li><p>Soluciones algebraicas a la resolución de problemas combinatorios
+27-30 July de 2008.</p></article>
+<article class="talk"><p>Soluciones algebraicas a la resolución de problemas combinatorios
 multiobjetivo. Seminario “Desafíos de la Matemática Combinatoria”.
-Sevilla, 17 June de 2008.</p></li>
-<li><p>Short Rational Generating Functions For Multiobjective Linear
+Sevilla, 17 June de 2008.</p></article>
+<article class="talk"><p>Short Rational Generating Functions For Multiobjective Linear
 Integer Programming. Conferencia Internacional sobre Álgebra
 Conmutativa, Combinatoria y Computacional en Memoria de Pilar Pisón
-casares. Sevilla, 11-16 February 2008.</p></li>
-<li><p>Bases de Gröbner Parciales y programación combinatoria
+casares. Sevilla, 11-16 February 2008.</p></article>
+<article class="talk"><p>Bases de Gröbner Parciales y programación combinatoria
 multiobjetivo. IV Seminario de Geometría Tórica. Jarandilla de la Vera
-(Cáceres), 15-18 November 2007.</p></li>
-<li><p>Funciones racionales cortas de Barvinok para la resolución de
+(Cáceres), 15-18 November 2007.</p></article>
+<article class="talk"><p>Funciones racionales cortas de Barvinok para la resolución de
 problemas de programación entera biobjetivo. XXX Congreso de la Sociedad
 de Estadística e Investigación Operativa. Valladolid 24-29 September
-2007.</p></li>
-<li><p>Nuevos enfoques de la optimización combinatoria multiobjetivo.
+2007.</p></article>
+<article class="talk"><p>Nuevos enfoques de la optimización combinatoria multiobjetivo.
 Reunión de la Red Temática de De cisión Multicriterio . Sevilla, May
-2007.</p></li>
-<li><p>Bases de Gröbner Parciales y programación entera multiobjetivo.
+2007.</p></article>
+<article class="talk"><p>Bases de Gröbner Parciales y programación entera multiobjetivo.
 Seminario del Departamento de Álgebra de la Universidad de Sevilla.
-Sevilla, December 2006.</p></li>
-<li><p>El plan de extensión optimo de la red ferroviaria de alta
+Sevilla, December 2006.</p></article>
+<article class="talk"><p>El plan de extensión optimo de la red ferroviaria de alta
 velocidad. XXIX Congreso de la Sociedad de Estadística e Investigación
-Operativa. Tenerife, Mayo 2006.</p></li>
-<li><p>El plan de extensión óptimo de la red ferroviaria espa~nola. VIII
+Operativa. Tenerife, Mayo 2006.</p></article>
+<article class="talk"><p>El plan de extensión óptimo de la red ferroviaria espa~nola. VIII
 Congreso de la Asociación Andaluza de Ciencia Regional. Granada, Marzo
-2006.</p></li>
-</ul>
-<div class="btn" id="projects"><p><strong>Projects:</strong></p></div>
+2006.</p></article></div><button class="show-more" id="talk-toggle" type="button"></button></div></section><section class="section" id="projects"><div class="shell"><div class="section-head"><div><div class="eyebrow">Funded research</div><h2>Projects</h2></div></div><div class="panel project-box">
 <p><em>As PI:</em></p>
 <ul>
+    <li><p>Mathematical optimization for machine learning in complex networks: Foundations and methodological contributions (PID2024-156594NB-C21
+    ). 2025-2029. Plan Estatal 2024-2027 - Proyectos Investigación No Orientada. PIs: V. Blanco, J. Puerto</p></li>
 <li><p>Mathematical Optimization and Complex Networks: From the Origin of Life to Artificial Intelligence (C-EXP-139-UGR23
     ). 2024-2026. Proyectos Plan Operativo FEDER Andalucía 2021-2027. PIs: V. Blanco, J. Puerto</p></li>
 <li><p>Bridges between Stats, OR, and Actuarial Sciencies: Alternative
@@ -576,8 +351,8 @@ Justo Puerto / Fernando López.</p></li>
 de la Universidad de Granada (CEX2020-001105-M), Min. de Ciencia e
 Innovación, 2021-26. PI: Joaquín Pérez.</p></li>
 </ul>
-<div class="btn" id="datasets"><p><strong>Datasets:</strong></p></div>
-<p>Github: <a
-href="http://github.com/vblancoOR">github.com/vblancoOR</a></p>
-</body>
-</html>
+</div></div></section><section class="section" id="datasets"><div class="shell"><div class="section-head"><div><div class="eyebrow">Open research</div><h2>Software &amp; Data</h2></div></div><div class="panel project-box">
+<p><a href="https://github.com/vblancoOR" rel="noopener noreferrer" target="_blank">GitHub</a>  ·  <a href="https://scholar.google.es/citations?user=codO4GkAAAAJ&amp;hl=en" rel="noopener noreferrer" target="_blank">Google Scholar</a>  ·  <a href="https://orcid.org/0000-0002-7762-6461" rel="noopener noreferrer" target="_blank">ORCID</a></p>
+</div></div></section><section class="section" id="students"><div class="shell"><div class="section-head"><div><div class="eyebrow">Mentorship / The next generation</div><h2>PhD Students</h2><p class="section-intro">Researchers I have supervised and am currently supervising.</p></div></div><div class="student-grid"><div class="student-group"><h3>Current PhD students <span class="group-count">03</span></h3><div class="student-list"><div class="student-row"><strong>Diego Laborda</strong><span>Current</span></div><div class="student-row"><strong>Juan Francisco Ocaña</strong><span>Current</span></div><div class="student-row"><strong>Santiago Carbó</strong><span>Current</span></div></div></div><div class="student-group"><h3>Former PhD students <span class="group-count">05</span></h3><div class="student-list"><div class="student-row"><strong>Safae El Haj Ben Ali</strong><span>2012</span></div><div class="student-row"><strong>Alberto Japón</strong><span>2021</span></div><div class="student-row"><strong>Ricardo Gázquez</strong><span>2021</span></div><div class="student-row"><strong>Miguel Martínez Antón</strong><span>2025</span></div><div class="student-row"><strong>Gabriél González</strong><span>2025</span></div></div></div></div></div></section></main><footer class="footer"><div class="shell">© Víctor Blanco · Universidad de Granada · <a href="mailto:vblanco@ugr.es">vblanco@ugr.es</a></div></footer><script>
+const search=document.querySelector('#publication-search');const yearSelect=document.querySelector('#year-filter');const papers=[...document.querySelectorAll('#publication-list .paper')];const years=[...new Set(papers.map(x=>x.dataset.year))].sort((a,b)=>b.localeCompare(a));years.forEach(y=>{const o=document.createElement('option');o.value=y;o.textContent=y;yearSelect.append(o)});function filterPapers(){let n=0;const q=search.value.toLowerCase().trim(),year=yearSelect.value;papers.forEach(p=>{const show=(!year||p.dataset.year===year)&&(!q||p.dataset.search.includes(q));p.classList.toggle('hidden',!show);if(show)n++});document.querySelector('#publication-count').textContent=n+' publications shown'}search.addEventListener('input',filterPapers);yearSelect.addEventListener('change',filterPapers);filterPapers();const talks=[...document.querySelectorAll('#talk-list .talk')];const talkButton=document.querySelector('#talk-toggle');let expanded=false;function renderTalks(){talks.forEach((x,i)=>x.classList.toggle('hidden',!expanded&&i>=12));talkButton.textContent=expanded?'Show fewer talks':'Show all '+talks.length+' talks'}talkButton.addEventListener('click',()=>{expanded=!expanded;renderTalks()});renderTalks();
+</script><script>const navLinks=[...document.querySelectorAll('.nav a')];const observedSections=[...document.querySelectorAll('section[id]')];const navObserver=new IntersectionObserver(entries=>{const visible=entries.filter(e=>e.isIntersecting).sort((a,b)=>b.intersectionRatio-a.intersectionRatio);if(visible.length){navLinks.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+visible[0].target.id));}},{rootMargin:'-90px 0px -55% 0px',threshold:[0,.1,.25,.5]});observedSections.forEach(el=>navObserver.observe(el));</script></body></html>
